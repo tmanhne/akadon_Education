@@ -1,0 +1,46 @@
+@import "../../index.scss";
+@import "../CourseDetail/index.scss";
+
+.course-detail {
+  .student-start {
+    background: $ctaBg2;
+  }
+  .main-btn,
+  .cancel-btn {
+    width: 276px;
+    font-size: 16px;
+  }
+}
+
+.course-status {
+  color: #ff6d34 !important;
+  background: rgba($color: #ff6d34, $alpha: 0.3) !important;
+}
+
+.disable-overlay::after {
+  border-radius: 100px !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .course-detail {
+    &__main-content {
+      flex-direction: column;
+      .econtract-box,
+      .user-box {
+        width: 100%;
+      }
+      .user-box {
+        display: flex;
+        h5 {
+          font-size: 1rem;
+        }
+        img {
+          width: 70px;
+        }
+        & > div {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

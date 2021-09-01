@@ -1,0 +1,138 @@
+.new-course {
+  z-index: 9;
+  color: #fff;
+  background: #03b0a9;
+  border-radius: 3px 0 0 3px;
+  font-weight: 600;
+  right: -1px;
+  top: 0.75rem;
+  .triangle-down::after {
+    content: "";
+    position: absolute;
+    z-index: 9;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid #03b0a9;
+    border-radius: 3px;
+    left: -18px;
+    top: -4px;
+  }
+}
+
+.courses {
+  &__content {
+    // ÂN STATE KHI WIDTH> 992PX
+    &__direction {
+      display: none;
+    }
+    & > .card-style {
+      width: 32%;
+      margin-bottom: 1rem;
+    }
+    .course-title {
+      margin: 0 -0.5rem 0.5rem -0.5rem;
+      span {
+        background: #ffcfbc;
+      }
+    }
+    .empty {
+      margin-top: 20%;
+      .content {
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .main-btn {
+        background: linear-gradient(90deg, #03b0a9 3.75%, #0369b3 100%);
+        line-height: 48px;
+        width: 15rem;
+      }
+    }
+  }
+
+  &__current,
+  &__pending {
+    a {
+      transition: 0.2s ease;
+      &:hover {
+        box-shadow: 0px 5px 14px rgba(3, 103, 180, 0.15);
+        transform: translateY(-4px);
+      }
+    }
+  }
+
+  &__current {
+    .offline-flag,
+    .online-flag {
+      width: 1rem;
+      height: 1rem;
+      right: -0.25rem;
+      top: -0.25rem;
+      background: #c5c6d1;
+    }
+    .online-flag {
+      background: #43a052;
+    }
+    .calendar .calendar-box {
+      background: #fdfeff;
+      box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+      border-radius: 6px;
+      padding-top: 0.3rem;
+      width: 3rem;
+      height: 3rem;
+      margin: 0 auto 0.25rem auto;
+    }
+  }
+
+  &__pending {
+    .new-tag {
+      border: 1.5px solid #03b0a9 !important;
+      &:hover {
+        box-shadow: 0px 9px 10px rgba(3, 176, 169, 0.15);
+      }
+    }
+    .done-course {
+      background: #f2f2f2;
+    }
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .courses {
+    &__content {
+      & > .card-style {
+        width: 49%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .courses {
+    &__content {
+      & > .card-style {
+        width: 100%;
+        display: none;
+        // THÊM display: NONE CHO ẨN direction;
+      }
+      // MÀU + HIỆN KHI ĐÚNG STATE direction
+      &__direction {
+        display: inline-block;
+        color: #bdbdbd;
+        & > div > span {
+          cursor: pointer;
+          &:hover {
+            color: black;
+          }
+        }
+      }
+      .open,
+      .happen,
+      .done {
+        display: inline-block;
+      }
+    }
+  }
+}

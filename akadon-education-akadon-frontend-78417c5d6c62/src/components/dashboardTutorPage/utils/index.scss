@@ -1,0 +1,19 @@
+@import "../../../index.scss";
+
+.dashboard-page {
+  &__main-sidebar {
+    .finance-item {
+      .show {
+        padding-left: 1.75rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-page {
+    &__content {
+      padding: 1.5rem 1rem !important;
+    }
+  }
+}

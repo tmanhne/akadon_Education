@@ -1,0 +1,66 @@
+{
+  "welcome": "Welcome",
+  "start-learning": "Start Your learning today",
+  "start-teaching": "Start sharing your knowledge!",
+  "tutor-cta": "Build Your Professional Profile",
+  "student-cta": "Request a Tutor",
+
+  "block-1-student": "Expand your knowledges with these subjects!",
+  "block-1-student-1": "Total tutors:",
+  "block-1-student-2": "Total students:",
+  "block-1-student-3": "Post request",
+
+  "block-2-student": "Take a look at our featured tutors!",
+  "block-2-student-1": "Short summary:",
+  "block-2-student-2": "Specialization:",
+  "block-2-student-3": "Rating:",
+
+  "block-3-student-1": "Pending Courses",
+  "block-3-student-2": "Pending Requests",
+  "block-3-student-3": "Requests in negotiation",
+  "block-3-student-4": "New bids from Tutors",
+
+  "block-4-student": "Ongoing courses",
+  "block-4-student-1": "You have not finished your Homework",
+  "block-4-student-2": "You have not paid for your previous lesson",
+  "block-4-student-3": "Your lesson will start at 17.30pm tomorrow",
+  "block-4-student-4": "Your lesson will start in",
+
+  "block-5-student": "Recent completed courses",
+  "block-6-student": "Let's discover new knowledges with AKADON! Trusted & qualified tutors spanning all fields will help you manage & plan your study schedule effectively",
+
+  "block-1-tutor": "Student request",
+  "block-1-tutor-empty": "We cannot find any request matching your profile",
+
+  "block-2-tutor": "Upgrade your Tutor account to make full use of AKADON’s features and services !  ",
+  "block-2-tutor-1": "Standard",
+  "block-2-tutor-2": "Professional",
+
+  "complete-profile": "Please complete your profile so that Akadon can help you find the suitable requests from students!",
+
+  "err-1": "Error ",
+
+  "model-1-1": "- Bid request is a request from the Tutor to the student on the course content based on bidding (in which Tutor can modify course content different from student's request, especially course fee).",
+  "model-1-2": "- Based on these bids, students will be able to choose their most fitted for their requirements.",
+  "model-1-3": "Don't show this again",
+  "model-1-4": "Bid",
+  "model_1_5": "View detail",
+
+  "banner-tooltip-1": "The remaining students allowed to teach",
+  "banner-tooltip-2": "The remaining request allowed to send",
+  "banner-tooltip-3": "The remaining time of the account",
+  "profile":"Profile",
+  "greeting_1":"To start using Akadon, please provide",
+  "greeting_2":"these infomation",
+  "full_name":"Full name",
+  "dob":"Birthday",
+  "gender":"Gender",
+  "male": "Male",
+  "female":"Female",
+  "city":"City",
+  "select_city":"Select city",
+  "dis":"district",
+  "select_dis":"Select district",
+  "confirm":"Confirm"
+
+}

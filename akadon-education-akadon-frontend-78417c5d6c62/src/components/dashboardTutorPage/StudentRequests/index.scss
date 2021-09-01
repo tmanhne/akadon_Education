@@ -1,0 +1,20 @@
+.request-card {
+  transition: 0.24s ease-out;
+  width: 100%;
+  &:hover {
+    box-shadow: 0px 9px 13px rgba(3, 103, 180, 0.15);
+    transform: translateY(-4px);
+  }
+  .user-box {
+    width: 20rem;
+    flex-shrink: 0;
+  }
+}
+
+.recommended {
+  border: 1px solid #ed2114 !important;
+  .recommended-img {
+    right: -11px;
+    top: 5px;
+  }
+}

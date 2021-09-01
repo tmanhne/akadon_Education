@@ -1,0 +1,34 @@
+{
+  "rg-btn": "Đăng ký",
+  "account-status": "Tài khoản hiện tại của bạn",
+  "month": "/ tháng",
+  "popular": "popular",
+  "next": "Tiếp theo",
+  "view-more": "Xem thêm",
+  "price-end": "VNĐ/ tháng",
+  "current":" Chọn loại tài khoản bạn muốn đăng ký",
+
+  "kind-bs": "Cơ bản",
+  "kind-std": "Tiêu chuẩn",
+  "kind-pro": "Chuyên nghiệp",
+
+  "title": "Form đăng ký tài khoản",
+  "header-1": "Loại tài khoản",
+  "header-2": "Xác nhận Lý lịch tư pháp",
+  "yes": "Có",
+  "no": "Không",
+  "header-3": "CMND/Passport",
+  "header-3-placeholder": "Số CMND/Passport",
+  "header-4": "Ảnh: Chụp cá nhân (rõ mặt) đang cầm CMND/Passport",
+  "header-4-label": "Nhấp vào ảnh ví dụ để tải ảnh lên",
+  "header-5": "Lý lịch tư pháp và những điều cần biết",
+
+  "step-1": "Đăng ký tài khoản",
+  "step-2": "Chờ xác nhận",
+  "step-2-text": "Tài khoản của bạn đã được xác thực!",
+  "step-3": "Thanh toán",
+
+  "alert-1": "Bạn cần có Lý lịch tư pháp để đăng ký tài khoản này!",
+  "alert-2": "Bạn phải xác nhận lý lịch tư pháp trước khi tiếp tục",
+  "alert-3": "Gửi thông tin xác thực thành công ! "
+}

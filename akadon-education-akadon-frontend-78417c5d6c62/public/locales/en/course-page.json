@@ -1,0 +1,23 @@
+{
+  "title": "Your courses",
+  "nav-item-1": "Pending courses",
+  "nav-item-2": "Ongoing courses",
+  "nav-item-3": "Past courses",
+  "item-1": "Course ID: ",
+  "item-2": "Start date: ",
+  "item-3": "Next class",
+  "key":"T",
+  "new":"New",
+  "emptycourse":"You dont have any course.",
+  "emptyhappen":"No teaching course.",
+  "emptyclose":"No completed course.",
+  "empty":"No teaching course.",
+  "post":"Post new request",
+  "ongoing":"Ongoing",
+  "pending":"Pending",
+  "completed":"Completed",
+
+  "t_1" : "Ongoing ",
+  "t_2" : " Pending",
+  "t_3" : "Completed "
+} 

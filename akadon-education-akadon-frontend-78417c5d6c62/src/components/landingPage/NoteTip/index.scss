@@ -1,0 +1,362 @@
+@import "../../../index.scss";
+
+.header-block-step {
+  padding: 3.125rem 0;
+  margin-bottom: 4.1875rem;
+  .small-menu {
+    transform: scaleX(0);
+    top: 78px;
+    width: 20rem;
+    height: 50vh;
+    background: $logoColor;
+    z-index: 9999999;
+  }
+  .full-menu {
+    transform: scaleX(1);
+    transition: 0.5 ease;
+  }
+ 
+  &__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    img {
+      width: 155px;
+    }
+    .logo-container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding-left: 1.5rem;
+    }
+    .logo {
+      width: 160px;
+      height: 90px;
+      padding: 50px 10px;
+      background: $logoColor;
+      box-sizing: content-box;
+    }
+  }
+
+  &__navbar {
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    ul {
+      max-width: 1440px;
+      margin: 0 auto;
+      list-style-type: none;
+      line-height: 5.625rem;
+      padding: 0 1.5rem;
+      position: relative;
+      z-index: 9;
+    }
+
+    .language-box {
+      position: relative;
+      select {
+        cursor: pointer;
+        border: 1px solid #e8e8e8;
+        background: #ffffff;
+        border-radius: 6px;
+        height: 2.75rem;
+        padding: 0.625rem;
+        padding-left: calc(0.625rem + 3.5rem);
+        width: 1rem;
+        font-size: 0.875rem;
+        font-weight: 500;
+      }
+      img {
+        position: absolute;
+        left: 0.625rem;
+        top: calc(50% - 0.625rem);
+      }
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #000000;
+    }
+  }
+}
+
+//Process component
+.content-step {
+  max-width: 1440px;
+  margin-bottom: 35px;
+  @include flexBox(column, center, center);
+  &__header {
+    @include headerStyle();
+  }
+  &__content {
+    line-height: 21px;
+    .content-box {
+      width: 60%;
+      max-width: 718px;
+    }
+    &__step {
+      display: flex;
+      flex-direction: row !important;
+      margin-top: 2.5rem;
+    }
+  }
+}
+
+// SLIDE CONTENT
+
+.content-note {
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+  max-width: 1440px;
+  .dashtip {
+    border: 2px dashed #c5c2d2;
+  }
+  .content {
+    margin: 2rem 10rem 0;
+    border-radius: 5px;
+    div {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 132%;
+      color: #ff0654;
+      .content_text {
+        display: list-item;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 132%;
+        color: #000000;
+        span {
+          color: #ff6d34;
+        }
+      }
+      .text-note {
+        color: #000000;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.4;
+      }
+      .pic-slide {
+        filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+        img {
+          width: 425px;
+        }
+      }
+    }
+    .midle {
+      position: relative;
+      transform: translateY(25px);
+      img {
+        width: 430px;
+      }
+    }
+  }
+
+  &__end {
+    font-style: italic;
+    color: #ff6d34;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    margin-left: 4.5rem;
+    span {
+      text-decoration-line: underline;
+      font-weight: bold;
+    }
+  }
+}
+
+// SLICK SLIDE
+.slick-slider {
+  .slick-arrow::before {
+    color: #0367b4;
+    font-size: 32px;
+  }
+  button {
+    // padding-top: 0.1rem;
+    border-radius: 50%;
+    z-index: 5 !important;
+    &:hover {
+      box-shadow: none !important;
+    }
+  }
+  .slick-next {
+    right: 95px;
+    width: 40px;
+    height: 40px;
+  }
+  .slick-prev {
+    left: 95px;
+    width: 40px;
+    height: 40px;
+  }
+  .slick-dots {
+    top: -50px;
+    ul {
+      margin: 0 3rem;
+      padding: 0;
+      
+      li {
+        width: 5.5rem;
+        height: 2.4rem;
+        margin: 1rem 0.5rem 0;
+      }
+    }
+    .slick-active {
+      margin: 0;
+      width: auto;
+      height: auto;
+      background: #0367b4;
+      opacity: 0.5;
+      border-radius: 6px;
+      margin: 1rem 0.5rem 0;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-block-step {
+    &__logoa {
+      .logo-container {
+        padding-left: 3.5rem;
+      }
+    }
+    &__navbar {
+      ul {
+        padding: 0 3.5rem;
+      }
+      .language-box {
+        select {
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .pic-slide {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+  }
+
+  .header-block-step {
+    padding: 0;
+    &__logoa {
+      .logo {
+        width: 90px;
+        height: 0;
+        padding: 39px 10px;
+        margin-left: 2.5rem;
+      }
+      img {
+        width: 100px;
+      }
+    }
+    &__navbar {
+      .hidden-item {
+        display: none;
+      }
+      .empty-item {
+        flex-grow: 2;
+      }
+      .menu-icon {
+        display: inline-block !important;
+      }
+      .language-box {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .content-note {
+    p.text-light {
+      color: #bdbdbd !important;
+    }
+    .content {
+      margin: 0;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-top: 4rem;
+      .justify-content-end {
+        margin-top: 2rem;
+        margin-right: 0 !important;
+        justify-content: center !important;
+      }
+    }
+    .midle {
+      transform: none !important;
+    }
+    .slick-slider {
+      .slick-arrow::before {
+        display: none;
+      }
+      button {
+        &:hover {
+          display: none;
+        }
+      }
+    }
+    &__end {
+      margin-left: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .content-note {
+    .pic-slide {
+      img {
+        width: 330px !important;
+      }
+    }
+    .midle {
+      img {
+        width: 330px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 674px) {
+  .content-step {
+    margin-bottom: 70px;
+  }
+  .slick-slider {
+    .slick-dots {
+      top: -90px;
+    }
+  }
+}
+
+//  lỗi css top nav
+@media screen and(max-width:886px) {
+  .comon .logo {
+    margin-top: 3.2rem;
+  }
+  .feature-content {
+    .feature-left,
+    .feature-right {
+      h3 {
+        margin-top: 0rem;
+      }
+    }
+  }
+}
+@media screen and(max-width:768px) {
+  .header-block__logo .logo {
+    margin-top: 0;
+  }
+}

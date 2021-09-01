@@ -1,0 +1,131 @@
+.marketing-page {
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  &__logo-box {
+    margin-bottom: 36px;
+  }
+  h4 {
+    margin-bottom: 48px;
+  }
+  .trial-box {
+    background: #ffdacc;
+  }
+  &__user-box {
+    h6 {
+      font-size: 1.25rem;
+    }
+  }
+  .cta-box {
+    margin-bottom: 1.25rem;
+    padding: 0 10%;
+  }
+  .fallback-content {
+    max-width: 550px;
+    img {
+      margin-bottom: 36px;
+    }
+    .text-hightlight {
+      margin-bottom: 70px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marketing-page {
+    &__user-box {
+      img {
+        width: 48px !important;
+      }
+      h6 {
+        font-size: 1rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+    }
+    .cta-box {
+      flex-wrap: wrap;
+      .h4 {
+        width: 100%;
+        margin-bottom: 1.5rem !important;
+      }
+    }
+    &__content-box {
+      .footer-img img {
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .marketing-page {
+    &__logo-box img {
+      width: 100px;
+    }
+    &__user-box {
+      flex-direction: column;
+      & > div {
+        align-self: flex-start;
+      }
+      .trial-box {
+        margin-top: 12px;
+        align-self: center;
+      }
+    }
+    .cta-box {
+      flex-direction: column;
+      align-items: flex-start;
+      .h4 {
+        margin-bottom: 1.5rem !important;
+      }
+      a,
+      span {
+        width: 100%;
+        margin-bottom: 12px;
+        text-align: center;
+      }
+    }
+    .footer-img img {
+      width: 250px;
+    }
+    &__content-box {
+      & > img {
+        width: 56px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .marketing-page {
+    .fallback-content {
+      img {
+        width: 215px;
+      }
+      .title span {
+        display: block;
+        margin-bottom: 4px;
+      }
+      .center-box {
+        flex-direction: column;
+        align-items: stretch;
+        a,
+        span {
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .marketing-page {
+    &__content-box {
+      .footer-img img {
+        width: 200px;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.suggest-time {
+  max-width: 576px;
+  & > .flex-box {
+    height: 48px;
+  }
+  input,
+  .dropdown-btn {
+    height: 46px !important;
+  }
+  .react-datepicker-wrapper {
+    width: 50% !important;
+  }
+  .react-datepicker__time-container,
+  .react-datepicker__time-box {
+    width: 7rem;
+  }
+  .checkbox-dropdown {
+    .dropdown-btn {
+      height: 48px;
+      min-width: 5rem;
+      background-color: #fff !important;
+      &:focus {
+        background: #fff;
+        color: #000;
+        outline: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .suggest-time {
+    flex-direction: column;
+    & > .flex-box {
+      width: 100% !important;
+      &:first-child {
+        margin-bottom: 1rem;
+        margin-right: 0 !important;
+      }
+    }
+  }
+}

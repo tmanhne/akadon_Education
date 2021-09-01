@@ -1,0 +1,256 @@
+@import "../utils/index.scss";
+
+//Request component
+.course-request {
+  flex-direction: column !important;
+  align-items: stretch !important;
+  .pagination {
+    justify-content: flex-end;
+    .active {
+      border-radius: 3px;
+      background: $hightLightColor;
+      color: #fff !important;
+    }
+  }
+  &__open-request,
+  &__pre-accept-request {
+    tr {
+      border-bottom: 1px solid #c5c6d1;
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+    td,
+    th {
+      padding: 1rem;
+      text-align: center;
+    }
+    .eyes-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: $logoColor;
+      border-radius: 6px;
+      color: #fff;
+    }
+    .pagination {
+      justify-content: flex-end;
+      .active {
+        border-radius: 3px;
+        background: $hightLightColor;
+        color: #fff !important;
+      }
+    }
+  }
+  &__open-request {
+    .image-avatar {
+      width: 2rem;
+      height: 2rem;
+      border: 1px solid #fe524d;
+      margin-left: -0.5rem;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+  &__close-request {
+    flex-wrap: wrap;
+    .card {
+      width: calc(50% - 1rem);
+      img {
+        width: 88px;
+      }
+    }
+  }
+}
+
+// UpdateClass component
+.update-class {
+  margin-bottom: 2rem !important;
+  flex-grow: 2;
+  &__request {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #8f8f8f;
+    margin-bottom: 1rem;
+    &:last-child {
+      border: none;
+    }
+    .request-info {
+      flex-grow: 2;
+    }
+    .flex-box {
+      align-items: center;
+    }
+    .main-btn {
+      align-self: flex-start;
+    }
+  }
+  &__form {
+    position: relative;
+    .modal-content {
+      width: 35rem;
+      padding: 1rem 3rem;
+    }
+    .close-modal {
+      background: #fff;
+      font-size: 2rem;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+// Daypicker component
+.calender-page {
+  &__scheduler {
+    margin-bottom: 2rem;
+    .fc-daygrid-day-number,
+    .fc-col-header-cell-cushion {
+      color: #000;
+    }
+    .fc-col-header {
+      background: #eaf4fc;
+    }
+    .fc-day {
+      padding: 0.5rem;
+    }
+  }
+  &__day-picker {
+    margin-bottom: 2rem;
+  }
+}
+
+// FullCalendar package styles
+.fc {
+  .fc-toolbar-title {
+    text-transform: capitalize;
+  }
+
+  .fc-today-button,
+  .fc-next-button {
+    background: $logoColor !important;
+    border: 1px solid #c0d9ec !important;
+    text-transform: capitalize !important;
+  }
+  .fc-prev-button {
+    border-radius: 6px 0px 0px 6px !important;
+    border: 1px solid #c0d9ec !important;
+    text-transform: capitalize !important;
+  }
+  .fc-next-button {
+    border-radius: 0px 6px 6px 0px !important;
+    border-color: $logoColor !important;
+  }
+  .fc-col-header-cell {
+    border: none;
+    line-height: 4.5rem;
+    padding: 0;
+    a {
+      padding: 0;
+      color: #8f8f8f;
+    }
+  }
+  .fc-daygrid-day-top {
+    justify-content: center;
+  }
+}
+
+//  MODAL STYLES
+.cancle-video,
+.payment-status-modal,
+.edit-course-modal {
+  height: 100%;
+  .modal-content {
+    border: none;
+    border-radius: 12px;
+  }
+  .underline {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .cancel-btn {
+    background: #e5e5e5 !important;
+  }
+  .main-btn {
+    background: $logoColor;
+    transition: 0.5s;
+  }
+}
+
+.calendar-modal {
+  .modal-content {
+    border-radius: 12px;
+    border: none;
+  }
+  .fc-scroller {
+    overflow: visible !important;
+  }
+  .fc-header-toolbar {
+    padding: 0 1rem;
+    margin-bottom: 0 !important;
+  }
+  .fc-toolbar-title {
+    font-size: 1.5rem;
+    color: $logoColor;
+  }
+  .fc-daygrid-day,
+  table,
+  td {
+    border: none !important;
+  }
+  .fc-daygrid-day-number,
+  .fc-col-header-cell-cushion {
+    color: #000 !important;
+    cursor: pointer;
+  }
+  .fc-day-today {
+    background: #000 !important;
+    border-radius: 6px;
+    margin: -0.5rem !important;
+    .fc-daygrid-day-number {
+      color: #fff !important;
+      font-weight: 600;
+    }
+  }
+  .fc-daygrid-event {
+    background: #fff;
+    border: none;
+  }
+  .fc-prev-button {
+    border: 1px solid #2c3e50 !important;
+  }
+  .status-icon {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .start {
+    background: $hightLightColor;
+  }
+  .done {
+    background: $logoColor;
+  }
+  .next {
+    background: $hightLightColor1;
+  }
+}
+
+.accept-modal,
+.noti-30-minute-modal,
+.noti-one-day-modal {
+  .modal-content {
+    max-width: 45rem;
+    border-radius: 12px;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-page__content {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin-top: 57px;
+  }
+}

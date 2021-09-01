@@ -1,0 +1,124 @@
+@import "../../../index.scss";
+
+.tutor-request {
+  padding: 0.75rem;
+// read_flag
+  .new-request {
+    background: rgba($color: #ff6d34, $alpha: 0.3);
+    td {
+      font-weight: 600 !important;
+    }
+  }
+
+  // button xem yêu cầu đã lưu
+  .save-tutor {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: linear-gradient(90deg, #036bb3 3.75%, #03b0a9 100%);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    &:hover {
+      box-shadow: 0px 0px 12px rgba(3, 172, 169, 0.5) !important;
+    }
+  }
+  // hiệu ứng hover vào
+  .hv-boder {
+    transition: 0.2s ease-out;
+    &:hover {
+      border-radius: 5px;
+      background: #f1f3f4 !important;
+    }
+  }
+  .tab-content {
+    margin: 0 -0.75rem;
+  }
+  .success {
+    color: #03b0a9;
+  }
+  .pendding {
+    color: #ff6d34;
+  }
+  .new {
+    color: #0367b4;
+  }
+  .a {
+    padding-top: 15vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .page {
+    // position: fixed;
+    // bottom: 1px;
+    // right: 30px;
+    position: relative;
+    right: 18px;
+    .page-item {
+      margin: 0 2px;
+      button {
+        width: 33px;
+        height: 33px;
+        border: 1px solid #d3d3d3 !important;
+        border-radius: 3px !important;
+        &:hover {
+          box-shadow: none !important;
+        }
+      }
+    }
+    .active {
+      background: #0367b4 !important;
+      border: 1px solid #0367b4 !important;
+    }
+  }
+  &__table {
+    .head {
+      border-bottom: 1px solid #c5c6d1 !important;
+    }
+    td,
+    th {
+      vertical-align: middle !important;
+    }
+    .filter-container > button {
+      color: #000 !important;
+      justify-content: center !important;
+      font-weight: 500;
+      img {
+        filter: none !important;
+      }
+    }
+    .filter-btn {
+      box-shadow: none !important;
+      border: none !important;
+      &:hover {
+        box-shadow: none !important;
+        background: #f1f3f4 !important;
+      }
+    }
+    // dropdown-menu-item
+    .show {
+      button {
+        cursor: pointer;
+        transition: 0.2s ease-out;
+        &:hover {
+          border-radius: 5px !important;
+          box-shadow: none !important;
+          background: #f1f3f4 !important;
+        }
+      }
+    }
+  }
+  .dropdown-item:focus {
+    background: #f8f9fa;
+    outline: none;
+    color: #000;
+  }
+  img {
+    border: none;
+  }
+}
+
+.filter-picker {
+  box-shadow: none;
+  background: transparent;
+}

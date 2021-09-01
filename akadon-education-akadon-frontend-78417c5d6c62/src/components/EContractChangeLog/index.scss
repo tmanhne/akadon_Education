@@ -1,0 +1,79 @@
+@import "../../index.scss";
+
+.e-contract-change-log {
+  &__current {
+    width: 100%;
+    padding: 12px;
+    .main-btn {
+      min-width: 12rem !important;
+    }
+    .cancle {
+      border: 1px solid $logoColor !important;
+      background: #eaf4fc !important;
+      color: $logoColor !important;
+    }
+    .cancle:hover {
+      color: #fff !important;
+    }
+  }
+  &__log {
+    transition: 0.5s ease;
+    width: 100%;
+    padding: 12px;
+    .header {
+      text-transform: uppercase !important;
+      margin: 0 -0.5rem;
+      padding: 1.25rem 0.5rem;
+      border-radius: 6px 6px 0 0;
+    }
+    .circle{
+      width: 7px;
+      color: #8F8F8F;
+      padding-top: 0.75px;
+      margin: 0 5px;
+      cursor: default;
+    }
+    .modify-field{
+      text-decoration: line-through;
+    }
+    .new-value{
+      padding: 3px 0;
+      background:rgba(3, 103, 180, 0.3) ;
+      color: #0367B4;
+      border-radius: 6px;
+    }
+  }
+  &__user-box {
+    margin: 0 -0.75rem;
+    padding: 0 0.75rem;
+    border-radius: 6px 6px 0 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .e-contract-change-log {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .e-contract-change-log {
+    &__current {
+      width: 50%;
+    }
+    // &__log {
+    //   width: 50%;
+    // }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .e-contract-change-log {
+    &__current {
+      width: 60%;
+    }
+    // &__log {
+    //   width: 40%;
+    // }
+  }
+}

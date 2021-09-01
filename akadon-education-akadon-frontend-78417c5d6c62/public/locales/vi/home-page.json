@@ -1,0 +1,77 @@
+{
+  "welcome": "Chào mừng",
+  "start-learning": "Bắt đầu học tập nào!",
+  "start-teaching": "Bắt đầu chia sẻ kiến thức của bạn!",
+  "tutor-cta": "Xây dựng hồ sơ chuyên môn",
+  "student-cta": "Tìm gia sư ngay (MIỄN PHÍ)",
+
+  "block-1-student": "Mở rộng kiến thức của bạn trong những môn học dưới đây !",
+  "block-1-student-1": "Số lượng gia sư:",
+  "block-1-student-2": "Số lượng học viên:",
+  "block-1-student-3": "Đăng yêu cầu",
+
+  "block-2-student": "Hãy xem những gia sư nổi bật của chúng tôi!",
+  "block-2-student-1": "Giới thiệu ngắn:",
+  "block-2-student-2": "Chuyên môn:",
+  "block-2-student-3": "Xếp hạng:",
+
+  "block-3-student-1": "Đề nghị dạy mới",
+  "block-3-student-2": "Học thử",
+  "block-3-student-3": "Yêu cầu đang thương lượng",
+  "block-3-student-4": "Khóa học chờ bắt đầu",
+
+  "block-4-student": "Khoá học đang diễn ra",
+  "block-4-student-1": "Bạn chưa hoàn thành BTVN",
+  "block-4-student-2": "Bạn chưa thanh toán buổi 1",
+  "block-4-student-3": "Buổi học của bạn sẽ diễn ra vào lúc 17h30 ngày mai (19/06/2020)",
+  "block-4-student-4": "Buổi học sẽ diễn ra trong vòng",
+
+  "block-5-student": "Khóa học hoàn thành gần đây",
+  "block-6-student": "Hãy cùng AKADON khám phá tri thức nha! Những gia sư uy tín, chất lượng ở tất cả các lĩnh vực sẽ giúp bạn quản lý, lên kế hoạch học tập một cách hiệu quả.",
+
+  "block-1-tutor": "Yêu cầu từ học viên",
+  "block-1-tutor-empty": " Chúng tôi không tìm thấy yêu cầu nào phù hợp với hồ sơ chuyên môn của bạn!",
+
+  "block-2-tutor": "Nâng cấp tài khoản ngay để nhận thêm học viên!",
+  "block-2-tutor-1": "Tiêu chuẩn",
+  "block-2-tutor-2": "Chuyên nghiệp",
+
+  "complete-profile": "Hãy hoàn tất profile của bạn để AKADON giúp bạn tìm kiếm những yêu cầu phù hợp từ học viên nhé",
+
+  "err-1": "Lấy danh sách yêu cầu không thành công, lỗi ",
+
+  "model-1-1": "- Đơn đề nghị dạy là đề xuất của Gia sư với Học viên về nội dung khóa học theo hình thức đấu thầu (trong đó Gia sư có thể thay đổi các chi tiết khóa học khác với Yêu cầu của học viên, đặc biệt là Chi phí khóa học).",
+  "model-1-2": "- Dựa trên các đơn thầu này, Học viên sẽ lựa chọn được gia sư phù hợp với nhu cầu của họ.",
+  "model-1-3": "Không hiển thị nữa",
+  "model-1-4": "Đề nghị dạy",
+  "model_1_5": "Xem chi tiết",
+
+  "banner-tooltip-1": "Số học sinh còn lại được phép dạy",
+  "banner-tooltip-2": "Số lần được đề nghị dạy còn lại",
+  "banner-tooltip-3": "Thời gian còn lại của tài khoản",
+  "profile":"Thông tin cá nhân",
+  "greeting_1":"Để bắt đầu sử dụng nền tảng AKADON, bạn vui lòng nhập",
+  "greeting_2":"các thông tin dưới đây",
+  "full_name":"Họ và tên",
+  "dob":"Ngày sinh",
+  "gender":"Giới tính",
+  "male": "Nam",
+  "female":"Nữ",
+  "city":"Thành phố",
+  "select_city":"Chọn thành phố",
+  "dis":"Quận/Huyện",
+  "select_dis":"Chọn Quận/Huyện",
+  "confirm":"Xác nhận",
+
+
+
+
+
+
+  "detail": "Kinh nghiệm giảng dạy 3 năm tốt nghiệp chuyên ngành tiếng Anh",
+  "view full": "Tìm hiểu thêm",
+  "watch": "Xem tất cả",
+
+  "subject-new": "Tìm gia sư cho những môn học dưới đây"
+
+}

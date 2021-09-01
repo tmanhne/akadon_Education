@@ -1,0 +1,62 @@
+{
+  "hbi_warning":"Chú ý chỉ số HBI của bạn quá thấp! Hãy chú ý ......",
+  "add_lesson":" vừa gửi yêu cầu thêm buổi học.",
+  "bid_decided_1":" đã <span> tạm chấp nhận</span> đơn đề nghị dạy môn",
+  "bid_decided_2":" của bạn!",
+  "change_contract":"được yêu cầu thay đổi",
+  "course":" khóa học",
+  "lesson":" buổi số ",
+
+  "start_course":"Khóa học của bạn đã được bắt đầu!",
+  "subject":"Môn: ",
+  "edit_lesson":" vừa gửi yêu cầu thay đổi buổi học.",
+  "new_bid":"Có một đề nghị mới cho môn ",
+
+  "accept_trial":"Học viên đã chấp nhận học thử",
+  "course_1":"khóa học: ",
+  "lesson_id":"Mã lớp học: ",
+  "start_from":"Buổi học bắt đầu từ ",
+  "to":"đến",
+  "day":"ngày",
+
+  "change_bid_contract_1":" đã yêu cầu thay đổi",
+  "change_bid_contract_2":" trong đơn đề nghị dạy môn",
+  "change_bid_contract_3":" của bạn!",
+
+  "contract_change":" yêu cầu thay đổi E-contract của bạn trong Yêu cầu tạm chấp nhận môn",
+  "start_in_30_minute":"Buổi học của bạn sẽ bắt đầu trong 30 phút nữa",
+  "start_lesson":"Buổi học của bạn sẽ diễn ra vào lúc ",
+  "tomorow":" ngày mai",
+
+  "review_lesson_1":"Bạn đã học xong ",
+  "lesson_1":"buổi ",
+  "of_tutor":" của giảng viên ",
+  "feel":" Bạn cảm thấy thế nào?",
+  "accepted":"đã chấp nhận",
+  "subject_1":" đơn đề nghị dạy môn ",
+  "your":" của bạn!",
+
+  "change_request":" đã yêu cầu thay đổi ",
+  "contract":" trong đơn đề nghị dạy môn ",
+  "change_econtract":" yêu cầu thay đổi E-contract của bạn trong Yêu cầu tạm chấp nhận môn ",
+  "start_course_1":" đã bắt đầu khóa học môn ",
+  "change_request_1":" đã yêu cầu thay đổi econtract trong khóa học môn ",
+  "your_1":" của bạn",
+  "start_lesson_1":"Buổi học môn ",
+  "start_lesson_2":" của bạn sẽ bắt đầu trong 30 phút nữa",
+  "start_lesson_3":" của bạn sẽ diễn ra vào ngày mai",
+
+  "teached":"Bạn đã dạy xong ",
+  "studied":"Bạn đã học xong ",
+  "lesson_no":"buổi học số  ",
+  "subject_name":" môn học ",
+  "cancel_course":" đã hủy khóa học ",
+  "accept_trial_1":" đã chấp nhận học thử môn",
+
+  "detail":"Chi tiết",
+  "student":"Học viên",
+  "tutor":"Gia sư",
+  "accept":"Chấp nhận",
+  "decline":"không chấp nhận",
+  "with":"với "
+}

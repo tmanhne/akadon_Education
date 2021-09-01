@@ -1,0 +1,63 @@
+$ctaBg1: linear-gradient(90deg, #ff005a 3.75%, #ff480d 100%);
+$ctaBg2: linear-gradient(-270deg, #03b4a9 0%, #0367b4 100%);
+$logoColor: #0367b4;
+$hightLightColor: #ff6d34;
+$hightLightColor1: #03b0a9;
+$boxShadow: 0px 4px 8px rgba(255, 255, 255, 0.25);
+
+//mixin
+@mixin flexBox($flex-direction, $justify-content, $align-item) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-item;
+}
+
+@mixin headerStyle {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000000;
+  padding-top: 1rem;
+  margin-bottom: 2.25rem;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 7.75rem;
+    background: #ff1500;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@mixin cta {
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 1.6875rem;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  border-radius: 100px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  &:hover {
+    box-shadow: 0px 0px 12px rgba(255, 70, 14, 0.5);
+    color: #fff;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 1.125rem 2.625rem;
+    font-size: 1.25rem;
+  }
+}
+
+@mixin truncateText($line) {
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

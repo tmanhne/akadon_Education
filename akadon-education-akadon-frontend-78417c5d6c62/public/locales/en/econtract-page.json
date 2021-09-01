@@ -1,0 +1,14 @@
+{
+  "header-1": "Request partially accepted",
+  "header-2": "Ongoing course",
+
+  "thead-1": "Created date",
+  "thead-2": "Subject",
+  "thead-3": "Level",
+  "thead-4": "Fee",
+  "thead-5": "Status",
+  "thead-6": "Course",
+  "thead-7": "Class code",
+  "thead-8": "Leson no",
+  "thead-9": "Date"
+}

@@ -1,0 +1,17 @@
+@import "../../index.scss";
+
+.page-note {
+    .content-step {
+        max-width: unset;
+        align-items: unset;
+        &__header::after {
+            position: unset;
+        }
+        &__header{
+            text-align: unset;
+        }
+    }
+    .content-note{
+        max-width: unset;
+    }
+}

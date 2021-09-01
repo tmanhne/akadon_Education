@@ -1,0 +1,53 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+
+pipelines:
+  default:
+    - step:
+        image: node:10.22.0
+        caches:
+          - node
+        script: # Modify the commands below to build your repository.
+          - npm install
+  branches:
+      master:
+      - step:
+          image: node:10.22.0
+          caches:
+            - node
+          script:
+            - mkdir -p ~/.ssh
+            - echo $KEY_DEPLOY | tr -d '\r' > ~/.ssh/id_rsa
+            - chmod 600 ~/.ssh/id_rsa
+            - eval `ssh-agent -s`
+            - ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
+            - ssh root@$SERVER_IP "source .bash_profile && ssh-add ~/.ssh/id_rsa && cd akadon-frontend && git pull --no-edit origin master && npm install && npm run build && cp -r build/* /var/www/html && systemctl restart httpd && echo `TZ=Asia/Ho_Chi_Minh date` >> ci-develop.log"
+
+      development:
+      - step:
+          image: node:10.22.0
+          caches:
+            - node
+          script:
+            - mkdir -p ~/.ssh
+            - echo $KEY_DEPLOY | tr -d '\r' > ~/.ssh/id_rsa
+            - chmod 600 ~/.ssh/id_rsa
+            - eval `ssh-agent -s`
+            - ssh-keyscan -H $DEV_SERVER_IP >> ~/.ssh/known_hosts
+            - ssh root@$DEV_SERVER_IP "source .bash_profile && ssh-add ~/.ssh/id_rsa && cd akadon-frontend && git pull --no-edit origin development && npm install && npm run build && cp -r build/* /var/www/html && systemctl restart httpd && echo `TZ=Asia/Ho_Chi_Minh date` >> ci-develop.log"
+      
+      eu-master:
+      - step:
+          image: node:10.22.0
+          caches:
+            - node
+          script:
+            - mkdir -p ~/.ssh
+            - echo $KEY_DEPLOY | tr -d '\r' > ~/.ssh/id_rsa
+            - chmod 600 ~/.ssh/id_rsa
+            - eval `ssh-agent -s`
+            - ssh-keyscan -H $AWS_SERVER_HOST >> ~/.ssh/known_hosts
+            - ssh root@$AWS_SERVER_HOST "source .bash_profile && ssh-add ~/.ssh/id_rsa && cd akadon-frontend && git pull --no-edit origin eu-master && npm install && npm run build && cp -r build/* /var/www/html && systemctl restart httpd && echo `TZ=Asia/Ho_Chi_Minh date` >> ci-develop.log"

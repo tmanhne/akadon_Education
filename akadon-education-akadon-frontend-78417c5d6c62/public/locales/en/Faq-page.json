@@ -1,0 +1,103 @@
+{
+    "header_title":"Frequently asked questions",
+    "box_1":"Student",
+
+    "quest_title":"1. What is Akadon?",
+    "quest_1":"<p>Akadon Education </p>is a platform that connects Students and Tutors in a convenient, fast and safe way, and completely Free of charge. With the superior features, Akadon brings you the most wonderful learning experience, closes the learning gaps and spread the knowledge to everyone.",
+    "quest_2":"After being connected, Student and Tutor can study anywhere, whether offline or online. What’s more, Student and Tutor can learn online right on Akadon – a powerful classroom management platform that integrates many smart features maximized for learning and teaching experience.",
+
+    "quest_title_1":"2. How can I find a Tutor on Akadon?",
+    "quest_3_tran":"You can find a suitable Tutor on Akadon in 6 simple steps:",
+    "quest_3":"<p>Step 1: Request</p> Student posts a request to find a tutor at<a>Akadon Education</a>.",
+    "quest_4":"<p>Step 2: Select</p> Student chooses 01 suitable tutor from the registered tutor list.",
+    "quest_5":"<p>Step 3: Discuss</p> Student and Tutor discuss the details of the course.",
+    "quest_6":"<p>Step 4: Accept</p> Student and Tutor agree on the course details and create an E-learning Contract.",
+    "quest_7":"<p>Step 5: Start learning</p> Student and tutor can choose to study offline, online, or right at AKADON's website<hightlin>Akadon Education</hightlin>.",
+    "quest_8":"<p>Step 6: Make a payment</p> Student pays the Tutor after each lesson.",
+    "quest_9":"Note: At any step of 1-4, either tutor or student could unilaterally request for a termination of cooperation to the other.",
+    "quest_10":"<hightlin>For more information, please read Akadon’s User guide </hightlin>",
+
+    "quest_title_2":"3. What subjects can students find tutors for?",
+    "quest_11":"On Akadon, students can find tutors for various subjects from grade 1 to grade 12 such as Math, Physics, Chemistry, Literature, English, Biology, History, Geography.",
+
+    "quest_title_3":"4. Where are tutoring sessions held?",
+    "quest_12":"After being connected, Student and Tutor can study anywhere, whether offline or online. ",
+    "quest_13":"Offline: Tutor can come to the student’s house for face-to-face learning",
+    "quest_14":"Online: Student and Tutor can learn online right on Akadon website – a powerful classroom management platform that integrates many smart features (video call, chat box, system for submitting assignments, taking tests and grading, etc.) that maximized for learning and teaching experience.",
+
+    "quest_title_4":"5. What is the average tuition fee?",
+    "quest_15":"The tuition fee for a 2-hour lesson will range from 150,000 VND to 350,000 VND, depending on the tutor’s teaching experience.",
+
+    "quest_title_5":"6. How do I pay the tutor? What forms of payment do you accept?",
+    "quest_16":"There are 3 methods of payment:",
+    "quest_17":"Direct payment: If tutor comes to the student’s house for face-to-face learning, student can pay the tutor in cash.",
+    "quest_18":"Bank transfer: Student can transfer tuition fees to his/her tutor via personal bank accounts.",
+    "quest_19":"Akadon payment gateway: Student can make a payment on Akadon website, which integrates a high-security payment gateway with ease. Students can review all statements of each session/course when using this payment method.",
+
+    "quest_title_6":"7. How can I contact a tutor?",
+    "quest_20":"<p>In step 3 (Discuss)</p>), when student chooses 1 tutor, the chat system will be opened so that tutor and student can chat with each other. From this step until the end of the course, chat will always be available.",
+    "quest_21":"The chat system only closes when the tutor and student are no longer connected.",
+
+    "quest_title_7":"8. What is an E-contract?",
+    "quest_22":"<p>An E-contract </p>is the agreements on the course details accepted by both student and tutor.",
+    "quest_23":"Any changes of course details during the study must be updated in the contract for later review.",
+    "quest_24":"This contract protects the interests of both parties if there is a dispute during or after the study (about tuition fees, study time, learning content).",
+
+    "quest_title_8":"9. How should I report if the tutor has inappropriate behavior?",
+    "quest_25":"For offline learning and online learning not using Akadon platform, students can report on Akadon website about the tutor's inappropriate behavior during the teaching process.",
+    "quest_26":"For online learning via video call on Akadon platform, students can report right away while studying on the video call system.",
+
+    "quest_title_9":"10. What is Behavioral Index (ABI)?",
+    "quest_27":"Behavioral Index <p>(Average Behavioral Index - ABI for short)</p> is an indicator that measures user behavior on Akadon website. The user will be rewarded or penalized in accordance with this indicator.",
+    "quest_28":"This indicator has an initial level of 100.",
+    "quest_29":"If the user’s behavior is good (with many 5-star reviews), the index will increase. The highest level is 125.",
+    "quest_30":"If the user's behavior is not good (were reported many times on the inappropriate behaviors), the index will decrease. The lowest level is 75.",
+    "quest_31":"The levels of user behavior are defined as follows:",
+    "quest_32":"75 - 80: Very poor behavior",
+    "quest_33":"80 - 90: Poor behavior",
+    "quest_34":"90 - 100: Fair behavior",
+    "quest_35":"100 -110: Good behavior",
+    "quest_36":"110 - 115: Very good behavior",
+    "quest_37":"115 - 125: Excellent behavior",
+
+
+    "box_2" : "Tutor",
+
+    "quest_title_10":"3. How can I become a tutor on Akadon?",
+    "quest_38":"Akadon requires authorized tutors to be 18 years old or older. ",
+    "quest_39":"If you are:",
+    "quest_40":"Student.",
+    "quest_41":"Teacher/ Lecturer.",
+    "quest_42":"The one who wants to make extra money and is at least 18 years old.",
+    "quest_42_tran":"Let’s register as Akadon tutor!",
+    "quest_43":"To register, Tutors create an account on Akadon website and choose an account package that suits their individual needs.",
+
+    "quest_title_11":"4. What types of account package can I sign up?",
+    "quest_44":"There are 3 account packages that are available for tutors:",
+    "quest_45":"Basic package: Totally FREE",
+    "quest_46":"Standard package: 299.000 VND/month.",
+    "quest_47":"Professional package: 599.000 VND/month.",
+    "quest_48":"For more details about the account packages, please click<hightlin>here</hightlin>.",
+
+    "quest_title_12":"5. What is Judicial Record and why is it needed?",
+
+    "quest_title_13":"6. What is the average monthly income of tutors?",
+    "quest_49":"The income of each tutor will vary depending on the number of students and the number of teaching sessions per week. If you work as a full-time tutor, your total income can reach 20 million VND/month",
+
+    "quest_title_14":"7. How do students make payment to tutors?",
+    "quest_50":"Akadon payment gateway: Student can make a payment on Akadon website, which integrates a high-security payment gateway with ease. Students and tutors can review all statements of each session/course when using this payment method.",
+
+    "quest_title_15":"8. What is an E-contract?",
+
+    "quest_title_16":"9. How can I contact a student?",
+
+    "quest_title_17":"10. How should I report if the student has inappropriate behavior?",
+    "quest_54":"For offline learning and online learning not using Akadon platform, tutors can report on Akadon website about the student’s inappropriate behavior during the learning process.",
+    "quest_55":"For online learning via video call on Akadon platform, tutors can report right away while teaching on the video call system.",
+   
+    "quest_title_18":"2. How can I find a student on Akadon?",
+    "quest_56_tran":"You can find a suitable student on Akadon in 6 simple steps:",
+  
+    "quest_title_19":" 11. What is Behavioral Index (ABI)?"
+   
+}

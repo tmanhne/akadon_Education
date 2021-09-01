@@ -1,0 +1,8 @@
+@import "../../../index.scss";
+
+.hv-boder {
+    width: fit-content;
+    &:hover {
+        cursor: pointer;
+    }
+}

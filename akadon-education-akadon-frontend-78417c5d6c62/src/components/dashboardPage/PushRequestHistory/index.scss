@@ -1,0 +1,41 @@
+.push-history {
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+  tbody tr {
+    height: 56px;
+  }
+  td {
+    vertical-align: middle;
+    &:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+    &:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+  }
+  thead {
+    button {
+      background-color: transparent !important;
+      cursor: pointer;
+      transition: 0.2 ease-out;
+      &:hover {
+        box-shadow: none !important;
+      }
+    }
+    .dropdown-menu button {
+      color: #000000 !important;
+      outline: none;
+      cursor: pointer;
+      transition: 0.2 ease-out;
+      &:hover {
+        box-shadow: none !important;
+        background: #f1f3f4 !important;
+      }
+    }
+  }
+  .filter-picker {
+    background: transparent;
+  }
+}

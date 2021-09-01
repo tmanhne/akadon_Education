@@ -1,0 +1,16 @@
+{
+  "calendar-title": "Calendar ",
+  "today": "Today",
+  "next-month": "Next month",
+  "prev-month": "Prev month",
+  "day": "Day",
+  "Week": "Week",
+  "month": "Month",
+  "year": "Year",
+  "note": "With AKADON’s Calendar, you can see upcoming courses and lessons to plan your study better.",
+  "lesson_id":"Session ID",
+  "start_date":"Start date",
+  "text_note":"Note:",
+  "view_detail":"View Detail",
+  "tutor":"Tutor: "
+}

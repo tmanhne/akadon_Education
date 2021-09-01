@@ -1,0 +1,165 @@
+@import "../../index.scss";
+
+// LandFeature component
+.connect-img {
+  margin-right: 8rem;
+  margin-top: -3.4rem;
+}
+.Line_1 {
+  top: 8rem;
+  right: 1.5rem;
+}
+.Line_2 {
+  top: 10rem;
+  right: -4.2rem;
+}
+.Line_3 {
+  top: 5rem;
+  right: 0rem;
+}
+.Line_4 {
+  top: 5rem;
+  right: -11rem;
+}
+.Line_5 {
+  top: 5rem;
+  right: -6rem;
+}
+
+.feature-content {
+  display: inline-flex;
+  justify-content: center;
+  .feature-left,
+  .feature-right {
+    position: relative;
+    font-size: 16px;
+    width: 50rem;
+    .feature-text {
+      width: 35rem;
+      span {
+        font-weight: 700;
+      }
+      h3 {
+        margin-top: 4rem;
+      }
+      .con-fist {
+        margin-top: 7rem;
+      }
+    }
+  }
+
+  .feature-left {
+    .dif {
+      float: right;
+      margin-right: 5rem;
+    }
+    .feature-text {
+      position: absolute;
+      right: 0;
+      .line {
+        margin-top: 9rem;
+      }
+    }
+    .title-left {
+      padding-top: 8rem;
+    }
+  }
+  .feature-right {
+    img {
+      margin-left: 6rem;
+    }
+  }
+}
+
+@media screen and(max-width:1400px) {
+  .Line_1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .header-block-step {
+    margin-bottom: 0;
+  }
+  .main {
+    padding-top: 0 !important;
+    .connect-img,
+    .Line_2,
+    .Line_3,
+    .Line_4,
+    .Line_5 {
+      display: none;
+    }
+  }
+  .feature-content {
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2.6rem;
+    .feature-right,
+    .feature-left {
+      width: fit-content;
+      .feature-text {
+        position: relative;
+        width: fit-content;
+        margin: 0 1rem;
+        .line {
+          margin-top: 0;
+        }
+        .con-fist {
+          margin-top: 1rem;
+        }
+      }
+      img {
+        margin: 0 !important;
+        padding-top: 1rem;
+      }
+      .title-left {
+        right: 0rem !important;
+        padding-bottom: 2rem;
+        padding-top: 1.6rem;
+        text-align: center;
+      }
+    }
+  }
+  .origin {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feature-content {
+    .feature-left,
+    .feature-right {
+      img {
+        width: 340px;
+      }
+    }
+  }
+}
+//  lỗi css top nav
+@media screen and(max-width:886px) {
+  .comon .logo {
+    margin-top: 3.2rem;
+  }
+  .feature-content {
+    .feature-left,
+    .feature-right {
+      h3 {
+        margin-top: 0rem;
+      }
+    }
+  }
+}
+@media screen and(max-width:768px) {
+  .header-block__logo .logo {
+    margin-top: 0;
+  }
+}
+
+// FeatureBot component
+
+.box-feature {
+  max-width: 30.6rem;
+  margin: 0 2.8rem;
+  font-size: 16px;
+}

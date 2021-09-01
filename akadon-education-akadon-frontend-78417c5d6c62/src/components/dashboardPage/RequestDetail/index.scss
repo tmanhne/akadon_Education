@@ -1,0 +1,109 @@
+@import "../../../index.scss";
+
+.request-detail {
+  &__request-card {
+    .c:hover {
+      color: #0367b4 !important;
+    }
+    width: 442px;
+    .main-btn {
+      background: #c5c6d1;
+    }
+    .init-flex-basis {
+      flex-basis: 20rem;
+    }
+  }
+  &__bidlist-card {
+    transition: 0.5s ease;
+    flex-grow: 2;
+    .image-avatar {
+      border: 1px solid #ff6d34 !important;
+    }
+    // pagination
+    .pagination-box {
+      .next,
+      .prev {
+        height: 36px;
+        width: 42px;
+        box-shadow: none !important;
+        font-size: 1.75rem;
+      }
+      .prev {
+        border: 1px solid #c0d9ec;
+        border-radius: 6px 0px 0px 6px;
+        color: #c0d9ec;
+      }
+      .next {
+        border-radius: 0px 6px 6px 0px;
+        background: $logoColor;
+        border-color: $logoColor;
+        color: #fff;
+      }
+    }
+    // filter
+    .fillter {
+      .hvcolor {
+        cursor: pointer;
+        transition: 0.2s ease-out;
+        &:hover {
+          box-shadow: none !important;
+          background: #f1f3f4 !important;
+        }
+      }
+      button {
+        background: #fff;
+        border: none;
+        color: #8f8f8f;
+        height: 45px;
+        border-radius: 6px;
+      }
+      .dropdown-menu {
+        box-shadow: none;
+        background: transparent !important;
+        .dropdown-item {
+          background: transparent;
+          box-shadow: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+  &__bid-detail {
+    .schedule .border-radius-2 {
+      font-size: 14px;
+    }
+    .cancel-btn,
+    .main-btn {
+      width: 15.4rem;
+      line-height: 25px;
+    }
+  }
+  .bid-detail-btn {
+    min-width: 32px !important;
+    height: 32px;
+    font-size: 1.5rem !important;
+  }
+  .pro-shadow {
+    box-shadow: 0px 0px 10px rgba(255, 193, 7, 0.25);
+    border: 1px solid #ffc107;
+  }
+  .filter-key {
+    width: 11rem !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .request-detail {
+    flex-direction: column !important;
+    &__request-card,
+    &__bidlist-card {
+      width: 100% !important;
+    }
+    &__request-card {
+      margin-left: 0 !important;
+    }
+    &__bidlist-card {
+      margin-bottom: 1rem !important;
+    }
+  }
+}

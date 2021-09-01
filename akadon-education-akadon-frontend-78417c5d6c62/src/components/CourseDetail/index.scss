@@ -1,0 +1,280 @@
+@import "../../index.scss";
+
+.review-model {
+  max-width: 50rem;
+  .active-mark div {
+    width: 1.25rem;
+    height: 1.25rem;
+    background: $logoColor;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2.2rem;
+    left: 0.6rem;
+  }
+  .overlay-mark {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: rgba(225, 225, 225, 0.5);
+    left: 0;
+    cursor: pointer;
+  }
+  .input-range {
+    position: relative;
+    margin: 0 1.5rem 0 1rem;
+    &__track {
+      height: 5px;
+      background: #dedede;
+    }
+    &__track--active,
+    &__slider {
+      background: $logoColor;
+    }
+    &__slider {
+      height: 16px;
+      width: 16px;
+      top: -11px;
+      position: absolute;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    &__label {
+      display: none;
+    }
+  }
+}
+
+.penalty-modal {
+  min-width: 660px;
+}
+
+.edit-lesson-modal,
+.add-lesson-modal {
+  min-width: 715px;
+}
+
+.set-date-modal {
+  max-width: 400px;
+  .input {
+    height: 36px;
+    max-width: 100% !important;
+  }
+  .dash-sign {
+    line-height: 45px;
+  }
+}
+// long thêm class eye btn bị lôi ui khi hover
+.hover-erro {
+  border: none !important;
+  border-radius: 6px;
+}
+
+.course-detail {
+  .done-mark {
+    margin-top: 30px;
+    left: 25%;
+    transform: translateX(-50%);
+    margin-left: 40px;
+  }
+  &__course-card {
+    width: calc(50% - 0.5rem);
+    .hight-light-box {
+      border-radius: 6px;
+      background: rgba($color: #03b0a9, $alpha: 0.3);
+      color: #03b0a9;
+      &:first-child {
+        background: $hightLightColor;
+      }
+    }
+  }
+  &__teacher-card {
+    width: calc(50% - 0.5rem);
+  }
+  &__lesson-card {
+    .main-btn {
+      line-height: 38px;
+    }
+    .status-incomming,
+    .status-inprogress,
+    .status-done {
+      width: 135px;
+      white-space: nowrap;
+    }
+    table {
+      border-collapse: separate;
+      border-spacing: 0 1rem;
+      .main-btn {
+        width: 165px;
+        font-weight: 500;
+        line-height: 32px;
+      }
+      th {
+        border: none;
+      }
+      td {
+        vertical-align: middle;
+        border-color: #d3d3d3;
+        &:first-child {
+          border-top-left-radius: 6px;
+          border-bottom-left-radius: 6px;
+        }
+        &:last-child {
+          border-top-right-radius: 6px;
+          border-bottom-right-radius: 6px;
+        }
+      }
+      .hightlight-box-1 {
+        background: #cde8fe;
+      }
+      .status-done {
+        color: #8f8f8f;
+        background: rgba($color: #8f8f8f, $alpha: 0.3);
+      }
+      .status-inprogress {
+        color: #03b0a9;
+        background: rgba($color: #03b0a9, $alpha: 0.3);
+      }
+      .status-incomming {
+        color: #0367b4;
+        background: rgba($color: #0367b4, $alpha: 0.3);
+      }
+      .disable-layout {
+        background: rgba($color: $hightLightColor, $alpha: 0.6) !important;
+      }
+    }
+  }
+  &__feedback-card {
+    .w-20 {
+      width: 20%;
+    }
+    .w-40 {
+      width: 40%;
+    }
+    .position-absolute {
+      top: 0.5%;
+      right: 2.5%;
+      align-self: baseline;
+    }
+  }
+}
+
+.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+  position: absolute !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .course-detail {
+    &__lesson-card {
+      .w-10 {
+        width: 6.5rem !important;
+      }
+      .w-remain {
+        width: calc(57% - 6.5rem);
+      }
+      .first-remain {
+        width: calc(43% - 6.5rem);
+      }
+    }
+    &__block-1 {
+      flex-wrap: wrap;
+    }
+    &__course-card,
+    &__teacher-card {
+      width: 100% !important;
+      margin-bottom: 1rem;
+    }
+  }
+}
+.bgcon {
+  background-color: #ffc107 !important;
+}
+
+.flex-box {
+  #bg-w {
+    background-color: #ffffff;
+  }
+}
+
+.review-modal {
+  max-width: 50rem;
+  .active-mark div {
+    width: 1.25rem;
+    height: 1.25rem;
+    background: $logoColor;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2.2rem;
+    left: 0.6rem;
+  }
+  .overlay-mark {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: rgba(225, 225, 225, 0.5);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .form-group span {
+    cursor: pointer;
+  }
+
+  .criteria-box,
+  .icon-box {
+    & > div {
+      width: 20%;
+      padding-left: 0 !important;
+      white-space: nowrap;
+    }
+  }
+
+  .input-range {
+    position: relative;
+    margin: 0 1.5rem 0 1rem;
+    &__track {
+      height: 5px;
+      background: #dedede;
+    }
+    &__track--active,
+    &__slider {
+      background: $logoColor;
+    }
+    &__slider {
+      height: 16px;
+      width: 16px;
+      top: -11px;
+      position: absolute;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    &__label {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .review-modal {
+    .icon-box {
+      padding: 0 !important;
+      img {
+        width: 24px;
+      }
+      .overlay-mark {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .criteria-box {
+      & > div {
+        font-size: 11px !important;
+        white-space: pre-wrap;
+      }
+    }
+    .input-range {
+      display: none;
+    }
+    .form-group {
+      padding: 0 0.5rem !important;
+    }
+  }
+}

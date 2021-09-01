@@ -1,0 +1,76 @@
+@import "../../index.scss";
+
+.forget-password {
+  // height: 100%;
+  max-width: 40rem;
+  h3 {
+    margin-bottom: 2.5rem;
+  }
+  .main-btn {
+    width: 12rem;
+  }
+  &__email-input,
+  &__code-input,
+  &__password-input,
+  &__button-box {
+    margin: 0 auto;
+    max-width: 30rem;
+    input[type="email"],
+    input[type="text"],
+    input[type="password"] {
+      height: 48px;
+    }
+  }
+  &__email-input {
+    max-width: 35rem;
+  }
+  // go back (login)
+  .go-back {
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+    transition: 0.2 ease-out;
+    width: fit-content;
+    &:hover {
+      p {
+        text-decoration: underline !important;
+      }
+    }
+  }
+  //go back step
+  .goback-hard {
+    cursor: pointer;
+    transition: 0.2 ease-out;
+    &:hover {
+      p {
+        text-decoration: underline !important;
+      }
+    }
+  }
+  &__password-input {
+    label {
+      max-width: 10rem;
+    }
+    .margin-box {
+      margin-left: 9rem;
+    }
+  }
+  &__step-box {
+    .step {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 24px;
+      min-height: 24px;
+      border-radius: 50%;
+      border: 1px solid #8f8f8f;
+      font-weight: bold;
+      color: #8f8f8f;
+    }
+    .active-step {
+      color: #fff !important;
+      background: $hightLightColor !important;
+      border: none;
+    }
+  }
+}

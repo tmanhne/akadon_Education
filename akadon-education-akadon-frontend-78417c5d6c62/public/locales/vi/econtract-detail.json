@@ -1,0 +1,21 @@
+{
+  "title-1": "Nội dung yêu cầu tìm gia sư",
+  "title-2": "E-contract (Hợp đồng dạy học)",
+
+  "chat-with-tutor": "Trao đổi với gia sư",
+  "chat-with-student": "Trao đổi với học sinh",
+
+  "edit-btn": "Thay đổi chi tiết",
+  "status-1": "Đang thương lượng",
+  "status-2": "Tạm chấp nhận",
+  
+  "latest-update": "Cập nhập mới nhất ngày ",
+  "e-descript": "Đây là BẢN THẢO HỢP ĐỒNG DẠY HỌC (chính là Đề nghị dạy của gia sư). Trong đó Học viên và Gia sư có thể thương lượng để thay đổi Hợp đồng sao cho phù hợp với nhu cầu của hai bên. Lưu ý: chỉ Học viên có thể nhấn nút Thay đổi chi tiết.",
+
+  "online": "Online (Học trực tuyến)",
+  "offline": "Offline (Gia sư tại nhà)",
+
+  "econtract-log": "LỊCH SỬ THAY ĐỔI",
+  "wait_respon" : "Chờ phản hồi...",
+  "req_change" : "Yêu cầu thay đổi E-contract"
+}

@@ -1,0 +1,85 @@
+@import "../../../index.scss";
+
+.review-modal {
+  max-width: 50rem;
+  .active-mark div {
+    width: 1.25rem;
+    height: 1.25rem;
+    background: $logoColor;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2.2rem;
+    left: 0.6rem;
+  }
+  .overlay-mark {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: rgba(225, 225, 225, 0.5);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .form-group span {
+    cursor: pointer;
+  }
+
+  .criteria-box,
+  .icon-box {
+    & > div {
+      width: 20%;
+      padding-left: 0 !important;
+      white-space: nowrap;
+    }
+  }
+
+  .input-range {
+    position: relative;
+    margin: 0 1.5rem 0 1rem;
+    &__track {
+      height: 5px;
+      background: #dedede;
+    }
+    &__track--active,
+    &__slider {
+      background: $logoColor;
+    }
+    &__slider {
+      height: 16px;
+      width: 16px;
+      top: -11px;
+      position: absolute;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    &__label {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .review-modal {
+    .icon-box {
+      padding: 0 !important;
+      img {
+        width: 24px;
+      }
+      .overlay-mark {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .criteria-box {
+      & > div {
+        font-size: 11px !important;
+        white-space: pre-wrap;
+      }
+    }
+    .input-range {
+      display: none;
+    }
+    .form-group {
+      padding: 0 0.5rem !important;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Yêu cầu",
+  "tutor-title": "Đề nghị dạy của bạn",
+  "nav-item-1": "Yêu cầu đang mở",
+  "nav-item-2": "Học thử",
+  "nav-item-3": "Yêu cầu đã đóng",
+  "nav-item-1-hover": "Danh sách các yêu cầu tìm gia sư bạn đã đăng",
+  "nav-item-2-hover": "Danh sách các yêu cầu khi bạn đã chọn 1 gia sư để trao đổi thêm",
+  "nav-item-3-hover": "Danh sách các yêu cầu khi bạn đã ngừng tìm gia sư",
+  "nav-item-1-hover-tutor": "Danh sách các yêu cầu tìm gia sư bạn đã đăng",
+  "nav-item-2-hover-tutor": "Danh sách các yêu cầu khi bạn đã chọn 1 gia sư để trao đổi thêm",
+  "nav-item-3-hover-tutor": "Danh sách các yêu cầu khi bạn đã ngừng tìm gia sư",
+
+  "save-request": "Xem yêu cầu đã lưu",
+  "tutor-item-1": "Đề nghị dạy đã gửi",
+  "tutor-item-2": "Học thử",
+  "tutor-item-3": "Yêu cầu đã đóng",
+
+  "empty-request": "Bạn chưa có yêu cầu mới cho môn học nào.",
+  "student-btn":" Đăng yêu cầu mới",
+
+  "header-1": "Ngày cập nhật",
+  "header-2": "Môn học yêu cầu",
+  "header-3": "Trình độ học sinh",
+  "header-4": "Ngân sách",
+  "header-5": "Số lượng gia sư<high/> đăng ký",
+  "header-6": "Đẩy tin tuyển",
+  "header-7": "Chi phí đề xuất",
+  "header-8": "Tình trạng",
+  "header-9": "VNĐ/lần",
+  "header-10": "Gia sư",
+
+  "status-1": "Đã học",
+  "status-2": "Chờ học",
+  "push-status-1": "Đẩy tin",
+  "push-status-2": "Thành công",
+  "currency-unit": "VNĐ/buổi",
+
+  "detail": "DANH SÁCH GIA SƯ ĐĂNG KÝ",
+  "detail-empty": "Chờ một chút sắp có gia sư dạy rồi!",
+
+  "student-1": "gia sư đã gửi đề nghị dạy",
+  "student-2": "Ngày gửi đề nghị",
+  "student-3": "Rating của gia sư",
+  "student-4": "Chi phí đề xuất",
+  "empty_filter": "Không tìm thấy nội dung phù hợp !",
+  "empty_request": "Bạn chưa có lớp học thử nào.",
+  "filter": "Lọc",
+  "push_text": "Đẩy tin tuyển lên đầu trong 7 ngày, với giá chỉ",
+  "push_now": "Đẩy tin ngay",
+  "no_thanks": "Không, cảm ơn",
+  "request_detail":"Chi tiết yêu cầu",
+  "reopen_request":"Mở lại yêu cầu",
+
+  "":""
+}

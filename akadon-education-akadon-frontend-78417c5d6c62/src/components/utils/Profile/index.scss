@@ -1,0 +1,48 @@
+.hbi-card {
+  .clock-wheel {
+    width: 15rem;
+    height: 15rem;
+    background: transparent;
+    border-radius: 50%;
+    top: 2rem;
+    svg {
+      left: 50%;
+    }
+  }
+}
+
+.star-diagram {
+  .progress {
+    height: 2px !important;
+  }
+  .progress-bar {
+    background: #ffae32;
+  }
+  svg {
+    font-size: 9px !important;
+    color: #c5c6d1;
+    margin-right: 1px;
+  }
+}
+
+.edit-profile-modal .modal-content {
+  width: 45rem;
+  input[type="date"],
+  select {
+    height: 48px;
+  }
+  label {
+    margin-bottom: 0;
+  }
+  .main-btn {
+    line-height: 38px;
+  }
+  .spinner-border {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+.profile-datepicker {
+  width: 22rem;
+}

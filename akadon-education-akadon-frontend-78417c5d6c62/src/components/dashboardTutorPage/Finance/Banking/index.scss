@@ -1,0 +1,48 @@
+.bank-empty,
+.bank-card {
+  height: 182px;
+  width: 300px;
+  border: 1px dashed #c5c6d1;
+}
+
+.banking-modal {
+  min-width: 615px;
+  form {
+    width: 454px;
+    margin: 0 auto;
+    input[type="checkbox"] {
+      -ms-transform: scale(1.5); /* IE */
+      -moz-transform: scale(1.5); /* FF */
+      -webkit-transform: scale(1.5); /* Safari and Chrome */
+      -o-transform: scale(1.5); /* Opera */
+      transform: scale(1.5);
+    }
+  }
+  .input-group {
+    input {
+      border-radius: 6px 0 0 6px;
+    }
+    .input-group-text {
+      border-radius: 0 6px 6px 0;
+    }
+  }
+  select {
+    height: 48px;
+  }
+}
+
+.bank-card {
+  background-image: url("../../../../assets/images/bank-card.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .is-verify {
+    svg,
+    span {
+      color: #03b0a9 !important;
+    }
+  }
+  .default-card {
+    background: #c9fffd;
+  }
+}

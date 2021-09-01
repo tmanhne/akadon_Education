@@ -1,0 +1,138 @@
+@import "../../index.scss";
+
+
+// AccuontType COMPONENT
+.pro,
+.stand,
+.basic {
+    height: 30.2rem;
+    width: 25.6rem;
+    margin: 1.5rem 0.5rem;
+    background: #eaf4fc;
+    img {
+        top: -25px;
+        right: 24px;
+    }
+    .fee-kind {
+        z-index: 1;
+        right: 46px;
+        top: -14px;
+        height: 5rem;
+        width: 8rem;
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        color: white;
+        p {
+            font-weight: 500;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+    }
+}
+
+// Capble COMPONENT
+.head-title {
+    font-size: 24px !important;
+    font-weight: 700;
+    max-width: 56rem;
+    p {
+        max-width: 78rem;
+        color: #8f8f8f;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+.content-capable {
+    background: #eef3f6;
+    width: 100vw;
+    .capble-title {
+        font-weight: 500;
+        font-size: 17px;
+        max-width: 52rem;
+        text-align: center;
+        color: #0367b4;
+    }
+    .resize{
+        max-width: 58rem;
+    }
+    .capble-icon {
+        justify-content: space-evenly;
+        width: 70%;
+    }
+    @media screen and (max-width: "1600px") {
+        p {
+            width: 10rem;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: "770px") {
+        .card-body {
+            .head-title {
+                text-align: center !important;
+                padding: 0 1rem !important;
+            }
+        }
+        .capble-icon {
+            width: 100%;
+        }
+    }
+}
+
+// SpecDetail COMPONENT
+.Spec-content {
+    font-weight: 400;
+}
+.spec-left,
+.spec-right {
+    font-size: 16px;
+    max-width: 40rem;
+    min-height: 34rem;
+    padding: 1.6rem 1.6rem 0rem 1.6rem;
+    margin: 0 0.75rem;
+    background: #eaf4fc;
+
+    .text-head {
+        margin-left: -1.5rem !important;
+        font-size: 20px;
+    }
+    ul {
+        color: #0367b4;
+        span {
+            color: black !important;
+        }
+    }
+    .text-sub {
+        list-style: none;
+    }
+    p {
+        color: #ff6d34;
+        font-style: italic;
+    }
+    img {
+        bottom: 0;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    @media screen and (max-width: "506px") {
+        min-height: 40rem;
+    }
+}
+
+@media screen and (max-width: "1162px") {
+    .Spec-content {
+        justify-content: center;
+        .spec-left,
+        .spec-right {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+        }
+        .spec-left {
+            ul {
+                padding-left: 1.5rem;
+            }
+        }
+    }
+}

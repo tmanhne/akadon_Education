@@ -1,0 +1,22 @@
+@import "../../../../index.scss";
+
+.cancle-modal {
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%) !important;
+  .modal-content,
+  .card {
+    text-align: center;
+    border: none !important;
+    padding-bottom: 2rem;
+    .orange-btn-hover,
+    .cancel-btn {
+      font-weight: bold;
+      padding: 0;
+      width: 9.6rem;
+      height: 3.3rem;
+      line-height: 3.3rem;
+      border-radius: 50px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "err_1":"You have not select options to report",
+  "err_2":"Let us know more detail",
+  "err_3":"Report successful",
+  "report_text_1":"Let us know what happened",
+  "report_text_2":"Thanks to your report, we will be able to identify what went wrong",
+  "report_text_3":"Is it one of these issues",
+  "report":"Add issues",
+  "join_room":" join room",
+  "leave_room":" leave room",
+
+  "reason_1":"Late for lesson",
+  "reason_2":"Did not join the lesson",
+  "reason_3":"Inappropriate behaviours",
+  "reason_4":"Violence",
+  "reason_5": "Swear words",
+  "reason_6": "Dropout of session",
+  "reason_7":"Impersonation account",
+  "reason_8":"Incorrect phone number",
+  "reason_9":"Incorrect address",
+  "reason_10":"Wrong person",
+  "reason_11":"Late for payment"
+}

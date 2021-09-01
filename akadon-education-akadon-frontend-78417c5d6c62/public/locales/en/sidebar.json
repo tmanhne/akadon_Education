@@ -1,0 +1,16 @@
+{
+  "sidebar-home": "Home",
+  "sidebar-requests": "Request",
+  "sidebar-courses": "Courses",
+  "sidebar-schedule": "Calendar",
+  "sidebar-payment": "Payment",
+  "sidebar-akadon-service": "AKADON Services",
+  "sidebar-econtract": "Edit E-contract",
+
+  "sub-payment-1": "Revenue",
+  "sub-payment-2": "Banks list",
+  "sub-payment-3": "Payment setting",
+  "guidelines": "Guidelines",
+  "student_requests": "Student's Requests",
+  "system_message":"System Messages"
+}

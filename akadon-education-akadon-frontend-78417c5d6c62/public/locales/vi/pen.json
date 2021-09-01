@@ -1,0 +1,17 @@
+{
+    "pen_1" : "Cấu trúc phạt và thay đổi lịch hẹn sát giờ",
+    "pen_2" : "Lưu ý: hình thức phạt chỉ tồn tại khi các bên sử dụng lịch của Akadon để quản lý, ngoài ra công ty sẽ không chịu trách nhiệm.",
+    "pen_3" : "Khi học viên hoặc gia sư muốn đổi lịch học, hai bên có thể đổi lịch trước buổi học ít nhất 24h",
+    "pen_4" : "Nếu đổi lịch muộn hơn 24h trước buổi học:",
+    "pen_5" : "24h - 12h thì phạt đền 5-10% học phí",
+    "pen_6" : "12h - 6h thì phạt đền 10-20% học phí",
+    "pen_7" : "<6h - thì phạt đền 30% học phí",
+    "pen_8" : "2h -> 50% học phí",
+    "pen_9" : "Thay đổi lịch học",
+
+    "pen_10" : "Buổi học hiện tại",
+    "pen_11" : "Đổi giờ",
+    "pen_12" : "Vui lòng chọn buổi học mới",
+    "pen_13" : "Huỷ",
+    "pen_14" : " Xác nhận"
+}

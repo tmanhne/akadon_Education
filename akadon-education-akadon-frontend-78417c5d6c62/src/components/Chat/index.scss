@@ -1,0 +1,73 @@
+@import "../../index.scss";
+
+.chat-page {
+  &__partner-list {
+    width: 15rem;
+    .large-hightlight-box {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    .new-message {
+      flex-shrink: 9999;
+      width: 8rem;
+    }
+    a {
+      cursor: pointer;
+    }
+    .active {
+      background: #eaf4fc;
+      border-left: 4px solid $logoColor;
+    }
+    .input-group {
+      width: calc(100% - 1.5rem);
+    }
+  }
+  &__dropdown,
+  &__partner-list {
+    .small-hightlight-box {
+      width: 1rem;
+      height: 1rem;
+    }
+    .text-truncate {
+      width: 9rem;
+    }
+  }
+  &__report-modal .modal-content {
+    max-width: 40rem;
+  }
+  &__partner-bar .dropdown-menu {
+    top: 55px !important;
+    left: 62px !important;
+    border: none !important;
+    border-radius: 12px !important;
+    width: 15rem;
+  }
+}
+
+.chat-report-modal {
+  max-width: 750px;
+}
+
+@media screen and (max-width: 1100px) {
+  .chat-page {
+    &__partner-list {
+      width: 5rem;
+      .chat-header {
+        text-align: center !important;
+        h5,
+        .large-hightlight-box {
+          display: none;
+        }
+      }
+      .input-group {
+        display: none;
+      }
+      .content {
+        display: none;
+      }
+      .active {
+        border-left: none;
+      }
+    }
+  }
+}

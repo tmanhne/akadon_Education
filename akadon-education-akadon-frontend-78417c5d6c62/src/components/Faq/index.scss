@@ -1,0 +1,136 @@
+@import "../../index.scss";
+
+.border-bottom {
+    .collapse {
+        p,
+        a {
+            margin-left: 0.4rem;
+        }
+    }
+}
+.faq-route > div > .flex-box > svg {
+    margin-top: 0.2rem;
+}
+
+
+
+.table_faq{
+    background: #eaf4fc;
+    border: 2px solid $logoColor;
+    td {
+      border: 2px solid $logoColor;
+    }
+    ol,
+    ul {
+      padding: 0 12px;
+      list-style-type: none;
+    }
+    ol {
+      li:nth-child(1)::before {
+        content: "1.";
+      }
+      li:nth-child(2)::before {
+        content: "2.";
+      }
+      li:nth-child(3)::before {
+        content: "3.";
+      }
+      li {
+        margin-left: 0.5rem;
+      }
+      li:before {
+        color: red;
+        font-weight: 600;
+        position: absolute;
+        left: 0;
+      }
+    }
+    ul li {
+      margin-bottom: 12px;
+    }
+    td {
+      padding: 12px;
+    }
+}
+.cost-block,
+  .time-block {
+    padding: 1rem 0 ;
+    padding-left: 1.5rem;
+    width: 45%;
+    img {
+      left: -1.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .cost-block {
+    background: #c3eed5;
+  }
+  .time-block {
+    background: #f9deda;
+  }
+
+
+
+
+// LONG BỎ CSS CỦA HEADER VÀ FOOTER FAQ CŨ
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    .faq-route > .absolute-box {
+        padding-bottom: 60px;
+        .sub-text {
+            position: relative;
+            z-index: 3;
+            padding-bottom: 2rem;
+        }
+        .sub-hard {
+            padding-bottom: 15px;
+            position: relative;
+            z-index: 2;
+            .select-box {
+                background: white;
+                padding-top: 0.25rem;
+                padding-bottom: 0.25rem;
+            }
+        }
+        img {
+            position: absolute;
+            right: -50px;
+            top: -65px;
+            width: 70%;
+            opacity: 0.5;
+        }
+    }
+}
+
+@media screen and (max-width: 429px) {
+    .faq-route > .absolute-box {
+        padding-bottom: 0 !important;
+        justify-content: center !important;
+        .sub-hard {
+            justify-content: center;
+            // padding-bottom: 120px;
+            position: relative;
+            z-index: 2;
+            .select-box {
+                background: white;
+                width: 165px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .faq-route > .absolute-box {
+        h1 {
+            width: 250px;
+        }
+    }
+}

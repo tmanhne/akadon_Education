@@ -1,0 +1,28 @@
+.connection-box {
+  right: 12px;
+  .phone-number-box {
+    line-height: 1.75rem;
+    top: -1.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+  }
+  .call-icon,
+  .chat-icon {
+    width: 48px;
+    line-height: 48px;
+  }
+  .call-icon {
+    background: #03b0a9;
+    box-shadow: 0px 0px 8px rgba(3, 176, 169, 0.5);
+    &:hover {
+      .phone-number-box {
+        display: block;
+      }
+    }
+  }
+  .chat-icon {
+    background: #f2994a;
+    box-shadow: 0px 0px 8px rgba(242, 153, 74, 0.5);
+  }
+}

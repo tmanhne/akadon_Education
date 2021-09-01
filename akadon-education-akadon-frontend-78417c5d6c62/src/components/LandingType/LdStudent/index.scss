@@ -1,0 +1,116 @@
+@import "../../../index.scss";
+
+.request-modal {
+  .modal-dialog {
+    max-width: 700px;
+  }
+  form {
+    max-width: 475px;
+  }
+  .main-btn-new {
+    line-height: 48px;
+    &:hover {
+      box-shadow: none !important;
+      .btn-arrow {
+        transform: translateX(6.5rem);
+      }
+    }
+  }
+
+  select,
+  input[type="date"] {
+    height: 48px;
+  }
+  .is-offline,
+  .is-online {
+    max-width: 283px;
+    border: 1px solid #000000;
+    .center-box {
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      height: 172px;
+    }
+    p {
+      color: #5b5b5b;
+    }
+  }
+  .is-offline {
+    .center-box {
+      background: #ffded1;
+    }
+    img {
+      width: 160px;
+    }
+  }
+  .is-online {
+    .center-box {
+      background: #cedeff;
+    }
+    img {
+      width: 265px;
+    }
+  }
+
+  .plus-btn {
+    width: 36px;
+    height: 36px;
+    background: $logoColor;
+    font-size: 1.5rem;
+  }
+  .delete-btn {
+    color: #ed2114;
+    font-size: 24px;
+    right: 0;
+    top: 0;
+    transform: translate(12px, 5px);
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url("../../../assets/icons/calendar-icon.svg");
+    cursor: pointer;
+  }
+
+  .trial-box {
+    border: 1px solid #000000;
+    .img-box {
+      background: #eaf4fc;
+      border-radius: 6px 6px 0px 0px;
+      border-bottom: 1px solid #000000;
+    }
+    p {
+      color: #5b5b5b;
+    }
+  }
+
+  .fee-unit {
+    top: 50%;
+    transform: translateY(30%);
+    right: 1.5rem;
+  }
+
+  .login-btn {
+    background: linear-gradient(90deg, #03b0a9 3.75%, #036bb3 100%);
+    &:hover {
+      background: linear-gradient(90deg, #036bb3 3.75%, #03b0a9 100%);
+    }
+  }
+
+  .delete-btn {
+    transform: translate(12px, -12px);
+  }
+}
+
+a.bg-light:focus,
+a.bg-light:hover,
+button.bg-light:focus,
+button.bg-light:hover {
+  background: #dff1ff !important;
+  box-shadow: none !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background: #f1f3f4;
+  box-shadow: none !important;
+}

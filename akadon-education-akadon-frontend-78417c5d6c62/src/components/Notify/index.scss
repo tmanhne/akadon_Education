@@ -1,0 +1,66 @@
+@import "../../index.scss";
+
+.notify {
+  .main-btn {
+    max-width: 10rem;
+  }
+  &__noti-30-minute-modal,
+  &__noti-one-day-modal {
+    max-width: 45rem;
+    .card {
+      width: 30rem;
+      background-image: url("../../assets/images/start-lesson-bg.png");
+      background-position: bottom;
+      background-size: auto;
+      background-repeat: no-repeat;
+      .card-header {
+        margin-left: -7.5rem;
+        margin-right: -7.5rem;
+        background: #fff;
+        border-radius: 12px 12px 0 0;
+      }
+    }
+  }
+  &__noti-30-minute-modal {
+    .count-down {
+      width: 12.5rem;
+      .h5 {
+        font-size: 3rem !important;
+      }
+      span {
+        font-size: 14px;
+        margin-right: 2.5rem !important;
+      }
+    }
+  }
+  &__dropdown {
+    height: 85vh;
+    overflow-y: scroll;
+  }
+  .dropdown-item {
+    &:active {
+      background: #fff;
+      color: #000;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .new-notify {
+    background: #eaf4fc;
+  }
+  .unread-number {
+    width: 1.85rem !important;
+    height: 1.85rem !important;
+    top: -5px !important;
+    right: 0;
+  }
+}
+
+.user-box h5 {
+  font-size: 1rem;
+}
+
+.edit-lesson-toast {
+  background: rgba($color: #ff6d34, $alpha: 0.3);
+}

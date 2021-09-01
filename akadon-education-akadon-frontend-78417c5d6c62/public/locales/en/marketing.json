@@ -1,0 +1,19 @@
+{
+  "header":"Tutor requests",
+  "content_1":"Members for ",
+  "content_2":" months, partiticpated in ",
+  "content_3":"courses",
+  "content_4":"Trial sessions requested",
+  "title":"Header: ",
+  "subject":"Subject: ",
+  "level":"Level: ",
+  "budget":"Fees per sessions: ",
+  "method":"Study mode: ",
+  "content_5":"To requests, please ",
+  "register":"Register",
+  "login":"Login",
+  "or":" Or ",
+  "fallback_1":"Requests has been fufilled or closed",
+  "fallback_2":"To see more",
+  "fallback_3":"requests, please"
+}

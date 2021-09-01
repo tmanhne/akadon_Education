@@ -1,0 +1,65 @@
+.login-btn:hover {
+  .btn-arrow {
+    transform: translateX(10rem);
+  }
+}
+
+.title-sign-up {
+  font-size: 2rem;
+  color: #0367b4;
+}
+
+.user-type {
+  border-radius: 16px;
+  padding: 30px 36px;
+  margin-bottom: 36px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+  &:hover {
+    svg {
+      transform: translateY(-3px);
+      transition: 0.3s;
+    }
+  }
+}
+
+.oauth2 {
+  .main-btn-new {
+    background: linear-gradient(90deg, #0066ff 0%, #0066ff 0%);
+    line-height: 48px;
+    &:hover {
+      box-shadow: none !important;
+      .facebook-class{
+        transform: translateX(2rem);
+      }
+    }
+  }
+  .title::after,
+  .title::before {
+    content: "";
+    width: 68px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+  }
+  .title::after {
+    right: -65px;
+  }
+  .title::before {
+    left: -65px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .user-page__content::before {
+    position: absolute;
+    content: "";
+    width: 134px;
+    height: 5px;
+    background: #000;
+    border-radius: 100px;
+    bottom: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title-1": "Request",
+  "title-2": "E-contract",
+
+  "chat-with-tutor": "Chat with tutor",
+  "chat-with-student": "Chat with student",
+
+  "edit-btn": "Edit econtract",
+  "status-1": "Edit E-contract",
+  "status-2": "Wait for response...",
+  "latest-update": "Latest update ",
+  "e-descript": "",
+
+
+  "online": "Online",
+  "offline": "Offline",
+
+  "econtract-log": "List of changes in E-contract",
+  "wait_respon" : "Awaiting response...",
+  "req_change" : "Teaching acceptance process"
+}

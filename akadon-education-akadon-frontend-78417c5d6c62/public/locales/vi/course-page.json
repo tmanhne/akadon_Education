@@ -1,0 +1,23 @@
+{
+  "title": "Khoá học của bạn",
+  "nav-item-1": "Khoá học đang chờ",
+  "nav-item-2": "Khoá học đang diễn ra",
+  "nav-item-3": "Khoá học đã hoàn thành",
+  "item-1": "Mã lớp học: ",
+  "item-2": "Ngày bắt đầu: ",
+  "item-3": "Buổi học tiếp theo",
+  "new":"Mới",
+  "key":"T",
+  "emptycourse":"Bạn chưa có khóa học đang chờ.",
+  "emptyhappen":"Bạn chưa có khóa học đang diễn ra.",
+  "emptyclose":"Bạn chưa có khóa học đã hoàn thành.",
+  "empty":"Bạn chưa có khóa học đang dạy.",
+  "post":"Đăng yêu cầu",
+  "ongoing":"Đang diễn ra ",
+  "pending":"Đang chờ",
+  "completed":"Đã hoàn thành",
+  
+  "t_1" : "Đang diễn ra ",
+  "t_2" : " Đang chờ",
+  "t_3" : "Đã hoàn thành "
+}

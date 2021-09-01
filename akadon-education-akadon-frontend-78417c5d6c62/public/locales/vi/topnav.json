@@ -1,0 +1,22 @@
+{
+  "header-1": "Tin nhắn",
+  "header-2": "Thông báo",
+  "header-3": "Hồ sơ cá nhân",
+  "header-4": "Thanh toán",
+  "header-5": "Cài đặt",
+  "header-6": "Đăng xuất",
+  "header-7": "Nâng cấp tài khoản",
+  "mark-read": "Đánh dấu đã đọc",
+
+  "sun": "Chủ nhật",
+  "mon": "Thứ Hai",
+  "tue": "Thứ Ba",
+  "wes": "Thứ Tư",
+  "thu": "Thứ Năm",
+  "fri": "Thứ Sáu",
+  "sat": "Thứ Bảy",
+
+  "day":"Ngày",
+  "month":"Tháng",
+  "years":"Năm"
+}

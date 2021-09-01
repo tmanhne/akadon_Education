@@ -1,0 +1,51 @@
+{
+  "register-text": "Đăng ký Tài khoản",
+  "select-account": "Tạo tài khoản cho",
+  "remember" : "Ghi nhớ tài khoản",
+
+  "login-now": "Đăng nhập ngay",
+  "login-btn": "Đăng Nhập",
+  "signup-now": "Đăng ký",
+  "question": "Bạn đã có tài khoản?",
+  "question-new": "Bạn chưa có tài khoản?",
+  "question-forget": "Quên mật khẩu?",
+  "login-as":"Đăng nhập với tư cách",
+  "student":"Học Viên",
+  "teacher":"Gia Sư",
+  "require":" Mục có dấu (*) là thông tin bắt buộc phải cung cấp.",
+
+  "register-step-1": "Thông tin tài khoản",
+  "register-step-2": "Xác thực tài khoản",
+  "register-step-3": "Thông tin cá nhân",
+  "register-step-4": "Hoàn thành",
+
+  "password": "Mật khẩu",
+  "repeat-password": "Nhập lại mật khẩu",
+
+  "password-rule-1": "Ít nhất 8 ký tự",
+  "password-rule-2": "Ít nhất 1 chữ cái in thường và 1 chữ cái in hoa",
+  "password-rule-3": "Ít nhất 1 số",
+  "password-rule-4": "Ít nhất 1 ký tự đặc biệt (VD: @,#,&,...)",
+
+  "check-mail-message": "AKADON vừa gửi một mã code vào email mà bạn đăng ký. Vui lòng kiểm tra email",
+  "enter-verify-code": "Nhập mã code",
+  "not-recieved-code": "Bạn chưa nhận được mã?",
+  "resend-code": "Gửi lại code",
+  "register-success": "Đăng ký tài khoản thành công!",
+  "start-work": "Vui lòng đăng nhập để bắt đầu giảng dạy",
+  "start-learning": "Vui lòng đăng nhập để bắt đầu học tập",
+
+  "forget-password": "Quên mật khẩu",
+  "forget-password-step-1": "Xác thực tài khoản",
+  "forget-password-step-2": "Tạo mật khẩu mới",
+  "forget-password-step-3": "Hoàn thành",
+  "create_password_success": "Tạo mật khẩu mới thành công",
+  "create-password-title": "Tạo mật khẩu mới",
+  "create-password-new": "Mật khẩu mới",
+  "create-password-repeat": "Mật khẩu mới",
+
+  "accept-akadon-separate-1": "Tôi chấp nhận ",
+  "accept-akadon-separate-2": "điều khoản ",
+  "accept-akadon-separate-3": "sử dụng",
+  "invalid_value":" (Nội dung không hợp lệ !)"
+}

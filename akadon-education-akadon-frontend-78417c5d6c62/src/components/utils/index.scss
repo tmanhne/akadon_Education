@@ -1,0 +1,686 @@
+@import "../../index.scss";
+
+.go-back {
+  width: fit-content;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+  &:hover {
+    span {
+      text-decoration: underline !important;
+    }
+  }
+}
+
+//Dashboard components
+.dashboard-page {
+  .expanded-sidebar {
+    width: 5rem;
+    .list-group-item span {
+      color: transparent;
+    }
+    .econtract-icon {
+      padding-left: 0.5rem !important;
+      a {
+        width: 48px;
+        height: 48px;
+      }
+    }
+    svg {
+      font-size: 1.5rem;
+      width: 16px;
+    }
+    // LONG DROPDOWN HARD WAY
+    .dropdown {
+      top: -40px;
+      left: 21px;
+      width: 16px;
+      &:hover {
+        top: -45px;
+        margin-bottom: -14px;
+        .chang {
+          background: #0367b4;
+          color: white;
+          position: relative;
+          font-weight: 500;
+          z-index: 5;
+          left: 18px;
+          padding: 0.5rem;
+          border-radius: 6px;
+        }
+        .dropdown-menu {
+          top: -35px !important;
+          left: -79px !important;
+          .dropdown-item {
+            line-height: 1.8;
+          }
+        }
+      }
+      .btn {
+        background: none;
+        color: #6c757d00;
+        position: relative;
+        &:hover {
+          box-shadow: none !important;
+          background: none;
+          color: #6c757d;
+        }
+      }
+      .btn-secondary:focus {
+        box-shadow: none !important;
+      }
+      .dropdown-menu {
+        top: -40px !important;
+        left: -79px !important;
+        .dropdown-item {
+          line-height: 1.8;
+        }
+      }
+    }
+    .hand {
+      top: -21px;
+    }
+    // LONG THÊM CSS CHO GHI CHÚ
+    .main-sidebar {
+      .list-group-item {
+        &:hover {
+          span {
+            background: #0367b4;
+            color: white;
+            position: relative;
+            font-weight: 500;
+            z-index: 5;
+            left: 18px;
+            padding: 0.5rem;
+            border-radius: 6px;
+          }
+        }
+      }
+      .econtract-icon {
+        &:hover {
+          &::after {
+            content: "Econtract";
+            background: #0367b4;
+            color: white;
+            position: relative;
+            font-weight: 500;
+            z-index: 5;
+            left: 65px;
+            top: -38px;
+            padding: 0.5rem;
+            border-radius: 6px;
+          }
+        }
+      }
+    }
+  }
+
+  .full-sidebar {
+    min-width: 216px;
+  }
+  &__sidebar {
+    transition: 0.5s ease;
+    .main-sidebar {
+      padding: 1.5rem 0 0 0;
+      background: rgba(255, 255, 255, 0.9);
+      min-height: 100vh;
+
+      .logo {
+        height: 51px;
+        transition: 0.5s ease;
+        img {
+          margin-bottom: 3.875rem;
+        }
+      }
+
+      .list-group-item:not(.hightlight-box) {
+        cursor: pointer;
+        & > a {
+          height: 56px;
+          display: flex !important;
+        }
+        &:hover {
+          background: #eaf4fc !important;
+        }
+
+        .active {
+          background: transparent;
+          color: $logoColor !important;
+          border-right: 2px solid $logoColor;
+        }
+      }
+
+      .list-group-item svg {
+        font-size: 1.25rem;
+      }
+
+      .hightlight-box a {
+        background: $hightLightColor;
+        height: 56px;
+        margin-top: 83px;
+        &:hover {
+          color: white !important;
+        }
+      }
+      .expan-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        right: 0;
+        top: 5rem;
+        font-size: 1.5rem;
+        transform: translateX(50%);
+      }
+    }
+  }
+
+  &__content {
+    background: #eaf4fc;
+    background-image: url("../../assets/images/dashboardBg.png");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 0;
+  }
+}
+
+// Day grid month calendar
+.day-grid-month-calendar {
+  table,
+  tr,
+  td {
+    border: none !important;
+  }
+  td {
+    cursor: pointer;
+  }
+  td a {
+    color: #000000 !important;
+    text-decoration: none;
+  }
+  .fc-daygrid-day-frame {
+    position: relative;
+    // hover+transition for calendar-page__sidebar
+    transition: 0.2s ease-out;
+    &:hover {
+      background: #f1f3f4 !important;
+      border-radius: 50%;
+      box-shadow: 0px 9px 13px rgba(3, 103, 180, 0.15);
+      transform: translateY(-4px);
+    }
+    .fc-daygrid-day-events {
+      min-height: auto !important;
+      position: absolute !important;
+      z-index: 99;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .fc-daygrid-event-harness,
+    .fc-daygrid-event,
+    .fc-event-main {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .fc-daygrid-event-harness {
+      background: transparent !important;
+      .fc-daygrid-event {
+        background: transparent !important;
+        border: none !important;
+      }
+    }
+  }
+  .fc-day {
+    min-width: 40px !important;
+    min-height: 40px !important;
+  }
+  .fc-scrollgrid-sync-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fc-day-today {
+    background: transparent !important;
+    .fc-scrollgrid-sync-inner {
+      border: 1px solid $logoColor !important;
+      border-radius: 50% !important;
+      font-weight: 600;
+    }
+    a {
+      color: $logoColor !important;
+    }
+  }
+
+  .fc-scroller-liquid-absolute,
+  .fc-scroller {
+    overflow: hidden auto !important;
+  }
+  .fc-view-harness {
+    min-height: 300px !important;
+  }
+  .fc-toolbar-title {
+    color: $logoColor;
+  }
+  .fc-prev-button {
+    background: transparent !important;
+    color: #c0d9ec !important;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    &:hover {
+      box-shadow: 0px 0px 12px rgba(3, 103, 180, 0.5) !important;
+    }
+  }
+  .fc-next-button {
+    background: $logoColor !important;
+    border-color: $logoColor !important;
+    &:hover {
+      position: relative;
+      box-shadow: 0px 0px 12px rgba(3, 103, 180, 0.5) !important;
+    }
+  }
+  .fc-header-toolbar {
+    margin-bottom: 0 !important;
+  }
+}
+
+// Day click calendar
+.date-click-calendar {
+  .fc {
+    .fc-col-header,
+    .fc-view-harness,
+    .fc-daygrid-body,
+    .fc-scrollgrid-sync-table {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+  // ADD BORDER AND BORDER RADIUS
+  td,
+  th,
+  .fc-col-header-cell {
+    border: 1px solid #dddddd;
+  }
+  .fc-col-header-cell {
+    border: 1px solid #dddddd !important;
+  }
+  .fc-scrollgrid,
+  .fc-scrollgrid-section-liquid td {
+    border-radius: 3px;
+  }
+  // TEXT STYLE
+  .fc-col-header-cell-cushion,
+  .fc-daygrid-day-number {
+    color: #000000 !important;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .fc-col-header-cell-cushion {
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+  }
+  // CENTERING BOXS
+  .fc-media-screen {
+    display: flex !important;
+    flex-direction: column !important;
+    .fc-header-toolbar {
+      align-self: start;
+      margin-right: 0.5rem;
+      padding: 1rem;
+      border-radius: 6px;
+      border: 1px solid #dddddd;
+      font-size: 1rem;
+      font-weight: normal !important;
+      .fc-prev-button {
+        background: transparent !important;
+        color: #c0d9ec !important;
+        padding: 0.2rem;
+        border-radius: 6px 0 0 6px;
+        border-right: none;
+      }
+      .fc-next-button {
+        background: $logoColor !important;
+        padding: 0.2rem;
+        border-radius: 0 6px 6px 0;
+        border-left: none;
+      }
+      h2 {
+        font-size: 1.2rem !important;
+      }
+    }
+    .fc-view-harness {
+      border-radius: 3px !important;
+    }
+  }
+
+  .fc-toolbar-chunk > div {
+    display: flex !important;
+    align-items: center;
+    h2 {
+      margin-right: 1rem;
+    }
+  }
+  // CENTER TEXT
+  .fc-daygrid-day-frame {
+    //hover
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease-out;
+    &::before {
+      position: absolute;
+      z-index: 99;
+      width: 100%;
+      height: 100%;
+    }
+    &:hover {
+      background: #f1f3f4 !important;
+    }
+    .fc-daygrid-day-top {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      justify-content: center;
+      align-items: center;
+    }
+    .fc-daygrid-day-events {
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      z-index: 9;
+      border-radius: 0 !important;
+      width: calc(100% + 4px);
+      height: 100%;
+      .fc-daygrid-event-harness,
+      .fc-daygrid-event,
+      .fc-event-main {
+        height: 100%;
+      }
+      .fc-daygrid-event {
+        background: $logoColor;
+        border-radius: 0;
+      }
+    }
+  }
+}
+
+// Request process steps
+.stepRequest {
+  & > .flex-box {
+    flex-basis: 13.5rem;
+  }
+  .step {
+    border: 1px solid #8f8f8f;
+    min-width: 24px;
+    min-height: 24px;
+  }
+  .active-step {
+    background: #ff6d34 !important;
+    color: #fff !important;
+    border: none !important;
+  }
+}
+
+// Date click calendar modal
+.date-click-modal {
+  input {
+    height: 36px;
+    max-width: 10rem;
+  }
+  .absolute-lable {
+    bottom: -1.75rem;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 100%;
+  }
+  .main-btn {
+    width: 10rem;
+  }
+  .cancle-setting {
+    background: #eaf4fc !important;
+    color: $logoColor;
+    border: 1px solid $logoColor;
+    &:hover {
+      color: #fff !important;
+    }
+  }
+}
+
+// FILTER BOX
+.filter-box {
+  .items-list {
+    height: 50vh;
+    overflow-y: auto;
+    bottom: 0;
+  }
+  .dropdown-item {
+    background: #fff;
+    color: #000000;
+    outline: none;
+    label {
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+}
+
+// MONTH SCHEDULE
+.schedule-active-tab {
+  border-color: $logoColor !important;
+  color: $logoColor !important;
+  background: #eaf4fc;
+}
+//  LONG THÊM CSS CHO LỊCH BỊ ĐÈ CSS ACTIVE
+.card-style > .tab-content > .active {
+  background: white !important;
+}
+
+.tab-content > .active {
+  background: white !important;
+}
+
+.month-schedule {
+  // HIDE HEADER
+  .fc-header-toolbar {
+    display: none !important;
+  }
+  .fc-scrollgrid-sync-inner {
+    line-height: 1;
+  }
+  // ADD BORDER AND BORDER RADIUS
+  td,
+  th,
+  .fc-col-header-cell {
+    border: 1px solid #dddddd;
+  }
+  .fc-col-header-cell {
+    border: 1px solid #dddddd !important;
+  }
+  .fc-scrollgrid,
+  .fc-scrollgrid-section-liquid td {
+    border-radius: 3px;
+  }
+  // TEXT STYLE
+  .fc-col-header-cell-cushion,
+  .fc-daygrid-day-number {
+    color: #000000 !important;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .fc-col-header-cell-cushion {
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    padding: 0.75rem 0 !important;
+  }
+  // CENTER TEXT
+  .fc-daygrid-day-frame {
+    .fc-daygrid-day-top,
+    .fc-daygrid-day-events {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      justify-content: center;
+      align-items: center;
+    }
+    .fc-daygrid-day-events {
+      position: absolute !important;
+      top: -2px;
+      left: -2px;
+      border-radius: 0 !important;
+      width: calc(100% + 4px);
+      height: 100%;
+      .fc-daygrid-event-harness,
+      .fc-daygrid-event,
+      .fc-event-main {
+        height: 100%;
+      }
+      .fc-daygrid-event {
+        background: $logoColor;
+        border-radius: 0;
+      }
+    }
+  }
+}
+
+.subject-icon {
+  width: 5px;
+  height: 5px;
+  margin-right: 2px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+// FILTERRING BOX
+// INPUT RANGE
+.filter-range {
+  .input-range__track--active,
+  .input-range__slider {
+    background: $logoColor !important;
+    border-color: $logoColor !important;
+  }
+  .input-range__label-container,
+  .input-range__label--value {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .input-range__label--value {
+    color: $logoColor;
+  }
+}
+
+.welcome-modal {
+  .modal-content {
+    border: none;
+    border-radius: 12px;
+  }
+}
+
+.toast-style {
+  border-radius: 0;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.12);
+  .toast-content {
+    max-width: 450px;
+  }
+  .close-btn {
+    top: 0.5rem;
+    right: 0;
+  }
+}
+
+.step-request {
+  height: 70px;
+  .step {
+    border: 1px solid #8f8f8f;
+    min-width: 24px;
+    height: 24px;
+  }
+  .active-step {
+    background: #ff6d34 !important;
+    color: #fff !important;
+    border: none !important;
+  }
+  .hidden-text {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .step-request .hidden-text {
+    label {
+      cursor: pointer;
+    }
+    span {
+      display: none;
+    }
+
+    &:hover {
+      span {
+        background: #0367b4;
+        color: white !important;
+        border-radius: 6px;
+        line-height: 1.4;
+        padding: 0.5rem 0.5rem;
+        font-weight: 500;
+        display: block;
+        position: absolute;
+        top: -56px;
+        left: 0;
+        transform: translateX((-50%));
+        white-space: nowrap;
+      }
+      .fist {
+        left: 80px;
+      }
+      .last {
+        left: -18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .dashboard-page {
+    &__main-sidebar {
+      .logo {
+        width: 150px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .notify,
+  .chat-page__dropdown {
+    .dropdown-menu {
+      top: 40px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .date-click-calendar {
+    .fc-media-screen {
+      flex-direction: column !important;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-page {
+    &__sidebar {
+      display: none;
+    }
+  }
+}

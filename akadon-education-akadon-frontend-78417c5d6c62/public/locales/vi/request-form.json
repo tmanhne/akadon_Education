@@ -1,0 +1,53 @@
+{
+  "title": "Yêu cầu tìm gia sư",
+
+  "header-1": "1. Thông tin về môn học",
+  "header-2": "2. Thời gian và Học phí",
+  "header-3": "3. Thông tin học viên",
+
+  "select-subject": "Chọn môn học",
+  "select-level": "Chọn lớp học",
+  "select-city": "Chọn thành phố",
+  "select-dist": "Chọn quận / huyện",
+
+  "online": "Online(Trực tuyến)",
+  "offline": "Offline(Gia sư tại nhà)",
+  
+  "field-1": "Ngân sách cho 1 buổi học",
+  "field-2": "Bạn muốn học trong khoảng thời gian",
+
+  "error-1": "Tiêu đề không hợp lệ !",
+  "error-2": "Hãy chọn tên môn học !",
+  "error-3": "( Hãy chọn lớp học ! )",
+  "error-4": "( Hãy chọn thành phố ! )",
+  "error-5": "( Hãy chọn Quận/Huyện ! )",
+  "error-6": "(Chọn buổi học để tiếp tục !)",
+  "error-7": "( Giờ học không hợp lệ ! )",
+  "error-8": " (Bạn phải chấp nhận điều khoản của akadon trước khi tiếp tục !)",
+  "common-error": "( Nội dung không hợp lệ ! )",
+  "complete": "Hoàn thành",
+
+  "placeholder-1": "Giới thiệu về trình độ của học sinh",
+  "placeholder-2": "Mong muốn gia sư củng cố lại kiến thức cơ bản hoặc luyện thi ...",
+  
+  "note": "Lưu ý: Nội dung yêu cầu của bạn sẽ không thể thay đổi sau khi đăng yêu cầu thành công.",
+  "request-btn": "Đăng yêu cầu tìm gia sư",
+  "require-field": "là thông tin bắt buộc",
+  "free_time":"Thời gian rảnh của bạn(để AKADON tiện sắp xếp lịch học)",
+  "trial_note": "Bạn có thể học thử một buổi trước khi chọn cho mình một gia sư phù hợp. Vì vậy, hãy cho chúng tôi biết thời gian rảnh bạn có thể học thử với gia sư nhé!",
+  "is_trial":"Bạn có muốn học thử online không?",
+  "yes": "Có",
+  "no": "Không",
+  "end_time": "Thời gian kết thúc dự kiến",
+  "request_success":"Bạn vừa đăng yêu cầu tìm gia sư thành công.",
+  "review": "Xem lại",
+  "your_free_time": "Thời gian rảnh của bạn",
+  "online_free_time": "Học thử online",
+  "schedule": "Lịch học đã đăng ký",
+  "schedule_note":"Nếu bạn muốn thay đổi lịch học này, bạn có thể quay lại bước 1 để chọn thời gian học hợp lý nhất cho mình nha.",
+  "request_success_note": "Đăng yêu cầu tìm gia sư thành công! Hãy chọn cho mình một gia sư phù hợp nha!",
+
+  "sunday" : "CN",
+  "day" : "Thứ ",
+  "day_eng" : " "
+}

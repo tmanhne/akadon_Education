@@ -1,0 +1,51 @@
+{
+  "register-text": "Sign Up",
+  "select-account": "Create account for",
+  "remember" : "Remember account",
+
+  "login-now": "Login",
+  "login-btn": "Log In",
+  "signup-now": "Sign up",
+  "question": "Have an account?",
+  "question-new": "Did not have an account?",
+  "question-forget": "Forgot password?",
+  "login-as":"Login as",
+  "student":"Student",
+  "teacher":"Tutor",
+  "require":"",
+
+  "register-step-1": "Account Info",
+  "register-step-2": "Verification",
+  "register-step-3": "Personal Info",
+  "register-step-4": "You’re Done!",
+
+  "password": "Password *",
+  "repeat-password": "Repeat password *",
+
+  "password-rule-1": "At least 8 charaters",
+  "password-rule-2": "At least 1 capital letter",
+  "password-rule-3": "At least 1 number",
+  "password-rule-4": "At least 1 special character (e.g. @,#,&,...)",
+
+  "check-mail-message": "Please check your email for a security code we have just sent. Your code is 6 characters in length.",
+  "enter-verify-code": "Enter code",
+  "not-recieved-code": "Did not get a code?",
+  "resend-code": "Re-send code",
+  "register-success": "Congratulations, your account is activated!",
+  "start-work": "Happy teaching with AKADON",
+  "start-learning": "Happy learning with AKADON",
+
+  "forget-password": "Forgot Password",
+  "forget-password-step-1": "Verify account",
+  "forget-password-step-2": "Reset password",
+  "forget-password-step-3": "Complete",
+  "create_password_success": "Reset password successfully!",
+  "create-password-title": "Reset password",
+  "create-password-new": "New password",
+  "create-password-repeat": "Repeat new password",
+
+  "accept-akadon-separate-1": "I accept the ",
+  "accept-akadon-separate-2": "Terms of Service and Privacy Policy ",
+  "accept-akadon-separate-3": "of AKADON",
+  "invalid_value":" (Invalid content)"
+}

@@ -1,0 +1,24 @@
+{
+  "err_1":"Bạn chưa chọn nội dung cần báo cáo !",
+  "err_2":"Hãy cho chúng tôi biết thêm chi tiết !",
+  "err_3":"Báo cáo thành công !",
+  "report_text_1":"Cho chúng tôi biết có chuyện gì đang xảy ra",
+  "report_text_2":"Dựa trên ý kiến đóng góp của bạn, chúng tôi sẽ phát hiện được nếu có gì đó không ổn",
+  "report_text_3":"Có phải là một trong những vấn đề này không?",
+  "report":"Đóng góp ý kiến",
+  "join_room":" đã tham gia chat",
+  "leave_room":" đã rời khỏi chat",
+
+  "reason_1":"Trễ giờ học",
+  "reason_2":"Không tham gia buổi học",
+  "reason_3":"Có hành vi không đúng mực",
+  "reason_4": "Bạo lực",
+  "reason_5": "Sử dụng ngôn ngữ không lịch sự",
+  "reason_6": "Tự ý bỏ dở buổi học giữa chừng",
+  "reason_7":"Tài khoản mạo danh",
+  "reason_8":"Sai số điện thoại không liên hệ được",
+  "reason_9":"Sai địa chỉ nên không tìm được đường",
+  "reason_10":"Sai danh tính người học",
+  "reason_11":"Quá hạn thanh toán"
+
+}

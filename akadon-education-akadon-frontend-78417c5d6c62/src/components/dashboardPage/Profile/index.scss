@@ -1,0 +1,18 @@
+@import "../../../index.scss";
+
+.profile {
+  &__blank-course-card {
+    .cta {
+      background: $ctaBg2;
+      width: 20rem;
+    }
+  }
+}
+
+.camera-box {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.3) 34%,
+    rgba(255, 255, 255, 0) 34%
+  );
+}

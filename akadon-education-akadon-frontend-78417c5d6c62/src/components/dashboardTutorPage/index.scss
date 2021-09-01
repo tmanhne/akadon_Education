@@ -1,0 +1,179 @@
+@import "../../index.scss";
+@import "../utils/index.scss";
+
+// COMMONLY CLASSES =====================================
+.container {
+  min-width: 100%;
+}
+.eyes-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: $logoColor;
+  border-radius: 6px;
+  svg {
+    color: #fff;
+  }
+}
+.pagination {
+  justify-content: flex-end;
+  .active {
+    border-radius: 3px;
+    background: $hightLightColor;
+    color: #fff !important;
+  }
+}
+
+// UTILS COMPONENTS =====================================
+.sidebar-card-style-1 {
+  h5 {
+    flex-grow: 2;
+  }
+  .card-style {
+    width: 18rem;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.12);
+    img {
+      width: 56px;
+    }
+    .info {
+      flex-grow: 2;
+    }
+    .edit {
+      width: 2.25rem;
+      height: 2.25rem;
+      background-color: #ffae32;
+      color: #fff;
+      border-radius: 6px;
+    }
+  }
+}
+
+// Request component
+.request-form-modal {
+  max-width: 40rem;
+  .modal-content {
+    border: none;
+    .save {
+      background: $hightLightColor !important;
+    }
+  }
+  &__header {
+    margin: -0.75rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: inset 0px -1px 0px #eeeeee;
+    h4 {
+      flex-grow: 2;
+    }
+  }
+  &__content {
+    .input-group-prepend .input-group-text {
+      border-left: none;
+      background: transparent;
+      border-radius: 0 6px 6px 0;
+    }
+    input {
+      border-radius: 6px;
+    }
+    input[type="radio"] {
+      cursor: pointer;
+    }
+    label {
+      cursor: pointer;
+    }
+    .flex-box {
+      .form-check {
+        width: 33%;
+      }
+    }
+    .cta-box {
+      justify-content: center;
+    }
+    .cancle {
+      background: #e5e5e5;
+    }
+  }
+}
+.multi-day-picker {
+  flex-wrap: nowrap;
+  align-items: stretch;
+  .fake-input {
+    flex-grow: 2;
+    border-radius: 6px 0 0 6px;
+    min-height: 2.625rem;
+    flex-wrap: wrap;
+    .selected-day {
+      background: #eaf4fc;
+      border-radius: 6px;
+      height: auto;
+      svg {
+        align-self: flex-start;
+      }
+    }
+  }
+  .input-group-prepend {
+    align-items: center;
+    position: relative;
+    border-radius: 0 6px 6px 0;
+    input {
+      border: none;
+      background: transparent;
+      color: transparent;
+      width: 2.25rem;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      &::placeholder {
+        color: transparent;
+      }
+    }
+    & > svg {
+      font-size: 1.5rem;
+    }
+  }
+}
+.DayPicker-Day--selected {
+  background: #000000 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
+
+// update warning
+.update-profile-warning {
+  background: #d3d3d3;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    border-top: 19px solid #d3d3d3;
+    border-left: 9.5px solid transparent;
+    border-right: 9.5px solid transparent;
+  }
+  p {
+    color: #111;
+  }
+}
+
+// Month calendar
+.dashboard-page__content {
+  .fc-header-toolbar {
+    margin-bottom: 12px !important;
+  }
+  .fc-col-header-cell {
+    line-height: 36px;
+    white-space: nowrap;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-page {
+    &__content {
+      margin-top: 57px !important;
+      min-height: 100vh;
+    }
+  }
+}

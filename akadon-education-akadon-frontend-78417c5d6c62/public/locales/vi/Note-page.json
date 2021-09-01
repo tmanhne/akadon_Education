@@ -1,0 +1,33 @@
+{
+    "header":"Sổ tay hướng dẫn",
+    "header_1":"Sổ tay hướng dẫn quy trình mở lớp tại AKADON",
+    "title":" Quy trình mở lớp tại Akadon được áp dụng theo phương thức “ ”, học viên và giáo viên đều có quyền thỏa thuận, thương lượng để đạt được chi phí tốt nhất và cách dạy phù hợp nhất.",
+    "title_1":"Quy trình mở lớp như sau: (6 bước)",
+
+    "step":"Bước 1",
+    "step_1":"Bước 2",
+    "step_2":"Bước 3",
+    "step_3":"Bước 4",
+    "step_4":"Bước 5",
+    "step_5":"Bước 6",
+    "step_6":"Bước",
+
+    "content":"Học viên đăng <span>Yêu cầu tìm giáo viên</span> MIỄN PHÍ và có thể xem lại ở mục <span>Yêu cầu đang mở</span>",
+
+    "content_1":"Giáo viên nhận được yêu cầu phù hợp với chuyên môn của mình. Nếu hứng thú, giáo viên có thể gửi <span>Đề nghị dạy</span> cho yêu cầu đó.",
+    "content_2":" <span>Đề nghị dạy</span> được gửi đi dưới dạng<span> Hợp đồng dạy học tạm thời</span> - còn được gọi là <span>E-contract</span>.",
+    
+    "content_3":"Từ danh sách giáo viên đã đề nghị dạy, Học viên sẽ tạm <span>chấp nhận 01 giáo viên</span> phù hợp để trao đổi thêm. Lúc này yêu cầu được chuyển sang mục <span>Học thử</span>",
+    "content_4":"Giáo viên và Học viên cùng trao đổi qua chat để thống nhất nội dung khóa học (thời gian, thời lượng, học phí ...) trong E-contract.",
+    "content_5":"<span>Lưu ý:</span> chỉ <mau>Học viên có thể chỉnh sửa E-contract</mau>, giáo viên có quyền chấp nhận hoặc không chấp nhận sự chỉnh sửa này. Trong khi chờ gia sư chấp nhận/không chấp nhận, E-contract được chuyển sang trạng thái <mau>Đang thương lượng</mau>",
+   
+    "content_6":"Sau khi cả hai bên cùng thống nhất nội dung khóa học, Học viên chính thức chấp nhận E-contract. <span>Khóa học đang chờ</span> được tạo",
+    "content_7":"Giáo viên sẽ là người bắt đầu khóa học.",
+   
+    "content_8":"Giáo viên và học viên học tập trên nền tảng của AKADON(online) hoặc học tập tại nhà (offline) và được sử dụng các công cụ hỗ trợ quản lý lớp học của AKADON.",
+
+    "content_9":"Học viên <span>thanh toán</span> cho Giáo viên sau <span>mỗi buổi học</span>.",
+
+    "title_2":"Vuốt ngang để xem các bước tiếp theo >>",
+    "title_3":"<span>Ghi chú:</span> Tại bất cứ bước nào từ bước 1-4, Giáo viên hoặc Học viên đề có quyền hủy hợp tác với bên còn lại."
+}

@@ -1,0 +1,262 @@
+@import "../../index.scss";
+
+#wpwidget {
+  .widget-layout,
+  .widget-layout--right {
+    display: none !important;
+  }
+  .widget-container,
+  .widget-container--right {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+.video {
+  &__chat-tooltip,
+  &__note-tooltip {
+    .tooltip {
+      width: 30rem;
+      background: #ffffff;
+      border-radius: 6px;
+      top: -1rem !important;
+      left: -4.5rem !important;
+    }
+    .tooltip-inner {
+      max-width: 100%;
+      background: #ffffff !important;
+    }
+    .navbar-tooltip .arrow::before {
+      top: 7px !important;
+      border-top-color: #fff !important;
+      border-right-color: transparent !important;
+      border-left-color: transparent !important;
+      right: -4.5rem;
+    }
+  }
+  &__chat-tooltip {
+    .messages-box-wrapper {
+      height: 20rem !important;
+    }
+    .guest {
+      color: #000000;
+    }
+  }
+  &__lesson-card {
+    .hight-light-box {
+      background: $hightLightColor;
+    }
+  }
+  &__note-card {
+    max-width: 17rem;
+    height: 100%;
+    .center-box {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    .border-bottom {
+      margin-left: -0.75rem;
+      margin-right: -0.75rem;
+      .flex-box,
+      p {
+        padding: 0 12px;
+      }
+    }
+    .note:last-child {
+      border: none !important;
+    }
+  }
+  &__present-card {
+    .partner-bar-parent {
+      margin-left: -0.75rem !important;
+      margin-right: -0.75rem !important;
+    }
+    .messege-box {
+      min-height: 15rem;
+    }
+    .chat-input {
+      .center-box {
+        width: 2.25rem;
+        height: 2.25rem;
+      }
+    }
+    .absolute-video {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 99;
+      padding-bottom: 0;
+    }
+  }
+  &__video-card {
+    max-width: 100%;
+    height: 363px;
+    background: #000;
+    .video-cta {
+      bottom: 0;
+      z-index: 9;
+      // add z-index erro projecter hide btn
+    }
+    .microphone,
+    .camera {
+      position: relative;
+      background: grey;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 2rem;
+        height: 2px;
+        background: red;
+        transform: rotate(-45deg);
+      }
+    }
+    .zoom-btn {
+      bottom: 0;
+      right: 1rem;
+      z-index: 9;
+    }
+    .end-call {
+      bottom: 0;
+      left: 1rem;
+      z-index: 10;
+    }
+    .rounded-circle {
+      width: 2rem;
+      height: 2rem;
+      background-color: #fff;
+    }
+    .call-btn {
+      bottom: 0;
+      left: 50%;
+      transform: rotate(136deg);
+    }
+    .call-btn-active {
+      background: red;
+      color: #fff;
+    }
+    .call-btn-disable {
+      background: #fff;
+      color: #000;
+    }
+    .join-room-btn {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .remote-participants {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      video {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .participant {
+      top: 0.75rem;
+      right: 0.75rem;
+      width: 5rem;
+      height: 5rem;
+      z-index: 99;
+    }
+    .participant video {
+      width: 5rem;
+      height: 5rem;
+    }
+    .outer-remote-participants video:nth-child(3) {
+      position: absolute !important;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 9;
+    }
+  }
+  &__cancle-modal {
+    .cancel-btn {
+      background: #e5e5e5 !important;
+    }
+    .submit-btn {
+      background: #ed2114 !important;
+    }
+  }
+  .chat-page__partner-bar {
+    box-shadow: none !important;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 0 !important;
+    .dropdown {
+      display: none !important;
+    }
+  }
+  .cursor-not-allowed {
+    cursor: not-allowed !important;
+  }
+  .active-status {
+    color: #03b0a9;
+    background: rgba($color: #03b0a9, $alpha: 0.3);
+  }
+  .inactive-status {
+  }
+}
+
+.video-card-dropdown {
+  .dropdown-menu {
+    width: 15rem;
+    top: -300% !important;
+  }
+}
+
+.report-modal {
+  .modal-content {
+    width: 40rem;
+  }
+  form {
+    max-width: 30rem;
+    select {
+      text-align-last: right;
+    }
+    textarea:focus {
+      box-shadow: none;
+    }
+  }
+  .relative-form-group label {
+    position: absolute;
+    left: 0.25rem;
+    top: 0.75rem;
+    background: #fff;
+  }
+  .relative-form-group:focus-within {
+    label {
+      top: -1rem;
+      left: 1rem;
+      transition: 0.5s ease;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .video {
+    &__chat-tooltip,
+    &__note-tooltip {
+      .tooltip {
+        left: -10rem !important;
+      }
+      .navbar-tooltip .arrow::before {
+        right: -10rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .end-call > .main-btn {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .video-cta {
+    justify-content: flex-end;
+    padding-right: 7rem;
+  }
+}

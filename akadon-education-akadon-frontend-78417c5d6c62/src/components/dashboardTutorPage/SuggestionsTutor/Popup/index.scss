@@ -1,0 +1,42 @@
+// success send
+.send-ok {
+  margin-top: 15%;
+  .modal-content {
+    .card-style {
+      .sw {
+        cursor: pointer;
+        background: #1865a0 !important;
+        color: white !important;
+        transition: 0.2 ease-out;
+        &:hover {
+          box-shadow: 0px 0px 12px rgba(3, 103, 180, 0.5) !important;
+        }
+      }
+    }
+  }
+}
+
+.cancle {
+  position: relative;
+  top: 36%;
+  transform: translateY(-50%);
+  width: 32rem;
+  height: 13.4rem;
+  .modal-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none !important;
+    .card {
+      text-align: center;
+      border: none !important;
+      .orange-btn-hover,
+      .cancel-btn {
+        padding: 0;
+        width: 9.6rem;
+        line-height: 3rem;
+        border-radius: 50px;
+      }
+    }
+  }
+}

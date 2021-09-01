@@ -1,0 +1,244 @@
+@import "../../../index.scss";
+
+.contract-detail {
+  .chat-btn {
+    background: $hightLightColor;
+  }
+  .main-btn {
+    min-width: 15rem;
+  }
+  .chat-btn {
+    background: $hightLightColor;
+  }
+  .cancel-btn {
+    background: #c5c6d1;
+    border: 1px solid $logoColor;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+  }
+  &__teacher-card {
+    max-width: 18rem;
+    .user-type {
+      top: -70%;
+      right: 0;
+      transform: translateX(120%);
+      background: $hightLightColor1;
+    }
+  }
+  &__e-contract {
+    background: #eaf4fc !important;
+    .edit-btn {
+      text-decoration: underline;
+    }
+  }
+  &__pre-accept-modal {
+    .main-btn {
+      width: 40%;
+    }
+    .cancel-btn {
+      background: #e5e5e5 !important;
+    }
+    .negative-margin {
+      margin: 0 -0.75rem;
+    }
+  }
+}
+
+.contract-detail-1 {
+  &__contract {
+    .a {
+      width: 80%;
+    }
+    width: 59.5%;
+    .had {
+      min-width: 160px;
+    }
+    .disable-overlay {
+      position: relative;
+      cursor: not-allowed !important;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(225, 225, 225, 0.5);
+        border-radius: 100px;
+      }
+    }
+    .cta-box {
+      .disable-overlay {
+        position: relative;
+        cursor: not-allowed !important;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: rgba(225, 225, 225, 0.5);
+          border-radius: 100px;
+        }
+      }
+      & > div {
+        width: 30%;
+      }
+    }
+    .modify-field {
+      color: #8f8f8f !important;
+      text-decoration: line-through;
+    }
+    .new-value {
+      background: rgba($color: #ff6d34, $alpha: 0.3);
+      color: #ff6d34;
+      border-radius: 6px;
+    }
+  }
+  &__bid-contract {
+    width: 39.5%;
+  }
+}
+
+.edit-contract-modal {
+  .modal-dialog {
+    min-width: 60rem;
+  }
+  .width-300px {
+    min-width: 300px;
+  }
+  .input-group input {
+    border-radius: 6px 0 0 6px;
+  }
+  .input-group .input-group-text {
+    border-radius: 0 6px 6px 0;
+    background: #fff;
+  }
+  .input-group select {
+    max-width: 6rem;
+  }
+  input[type="number"],
+  input[type="date"],
+  select {
+    height: 38px !important;
+  }
+  input,
+  select,
+  .input-group-text {
+    color: #000;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url("../../../assets/icons/calendar-icon.svg");
+    cursor: pointer;
+  }
+
+  .fc-daygrid-day-events {
+    position: absolute !important;
+  }
+  .fc-daygrid-day-frame:hover {
+    background: transparent !important;
+  }
+}
+
+// Change history
+.e-contract-change-log {
+  &__log {
+    transition: 0.5s ease;
+    width: 100%;
+    padding-bottom: 0.1rem !important;
+    .header {
+      text-transform: uppercase;
+      display: flex;
+      text-transform: uppercase;
+      justify-content: space-between;
+      margin: 0 -0.5rem;
+      padding: 1.25rem 0.5rem;
+      border-radius: 6px 6px 0 0;
+      .active {
+        transition: 0.5s ease-in-out;
+        transform: rotate(180deg);
+      }
+      .de-active {
+        transition: 0.5s ease-in-out;
+        transform: rotate(-180deg);
+      }
+    }
+
+    .circle {
+      width: 7px;
+      color: #8f8f8f;
+      padding-top: 0.75px;
+      margin: 0 5px;
+      cursor: default;
+    }
+    .request-css {
+      display: contents;
+    }
+    .modify-field {
+      text-decoration: line-through;
+    }
+    .new-value {
+      padding: 3px 0;
+      background: rgba(3, 103, 180, 0.3);
+      color: #0367b4;
+      border-radius: 6px;
+    }
+  }
+}
+
+// YouSureModel + sendchangedone
+.request-form-modal {
+  .modal-content {
+    .card-style {
+      .tex {
+        text-align: center;
+      }
+      img {
+        align-items: center;
+        margin-bottom: 0.5rem;
+      }
+      .sw {
+        width: 12rem;
+      }
+      .swg {
+        width: 17rem;
+        line-height: 1.6;
+      }
+      .cancel-btn {
+        background: #eaf4fc !important;
+        border: 1px solid #0367b4 !important;
+        color: #0367b4 !important;
+        box-sizing: border-box;
+        border-radius: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-btn,
+  .chat-btn,
+  .cancel-btn {
+    min-width: 10rem !important;
+  }
+  .edit-contract-modal {
+    .modal-dialog {
+      min-width: 50rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .contract-detail-1 {
+    flex-direction: column !important;
+    &__contract {
+      order: 2;
+    }
+    &__contract,
+    &__bid-contract {
+      width: 100%;
+    }
+  }
+}

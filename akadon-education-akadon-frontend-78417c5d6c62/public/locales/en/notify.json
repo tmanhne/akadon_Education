@@ -1,0 +1,62 @@
+{
+  "hbi_warning":"Your HBI is critical! Please take caution",
+  "add_lesson":" has sent a session addition request",
+  "bid_decided_1":" has partially accepted your bid for ",
+  "bid_decided_2":"",
+  "change_contract":" has been requested for modification",
+  "course":" course ",
+  "lesson":" session ",
+
+  "start_course":"Your course has been started",
+  "subject":"Subject: ",
+  "edit_lesson":" has sent a session modification request",
+  "new_bid":"A new bid request for ",
+
+  "accept_trial":"Student has accepted Trial Session",
+  "course_1":"Course: ",
+  "lesson_id":", session code: ",
+  "start_from":"Session start from ",
+  "to":"to",
+  "day":"",
+
+  "change_bid_contract_1":" has sent update request for ",
+  "change_bid_contract_2":"",
+  "change_bid_contract_3":"",
+
+  "contract_change":" Your econtract modification request in Partially Accpeted request",
+  "start_in_30_minute":"Your session will start in 30 minutes",
+  "start_lesson":"Your session will be at ",
+  "tomorow":"",
+
+  "review_lesson_1":" you completed lesson ",
+  "lesson_1":" ",
+  "of_tutor":" of tutor ",
+  "feel":"What do you think about this sessions.",
+  "accepted":" accepted",
+  "subject_1":" teach request for ",
+  "your":"",
+
+  "change_request":" sent request to change ",
+  "contract":" which belong to contract for subject name ",
+  "change_econtract":" Your econtract modification request in Partially Accpeted request ",
+  "start_course_1":"has started your course - ",
+  "change_request_1":"has requested econtract modification in your ",
+  "your_1":" teaching request",
+  "start_lesson_1":"Your session for ",
+  "start_lesson_2":" will start in 30 minutes",
+  "start_lesson_3":" will be at tomorrow",
+
+  "teached":"Your session completed, ",
+  "studied":"Your session completed ,",
+  "lesson_no":" session id:  ",
+  "subject_name":", subject name: ",
+  "cancel_course":" has canceled your course - subject name: ",
+  "accept_trial_1":"has accepted Trial Session",
+
+  "detail":"Detail",
+  "student":"Student",
+  "tutor":"Tutor",
+  "accept":"Accept",
+  "decline":"Decline",
+  "with":"with "
+}

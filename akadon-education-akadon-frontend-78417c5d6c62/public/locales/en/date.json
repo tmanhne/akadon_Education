@@ -1,0 +1,32 @@
+{
+  "0": "Sun",
+  "1": "Mon",
+  "2": "Tue",
+  "3": "Wed",
+  "4": "Thu",
+  "5": "Fri",
+  "6": "Sat",
+
+  "wait": "",
+  "wait_indrop": "Day",
+
+  "Date_full1": "Sunday",
+  "Date_full2": "Monday",
+  "Date_full3": "Tuesday",
+  "Date_full4": "wednesday",
+  "Date_full5": "Thursday",
+  "Date_full6": "Friday",
+  "Date_full7": "Saturday",
+  "start_time": "start time",
+  "end_time": "end time",
+  "hour":"Hour",
+  "minute":"Minute",
+  "second":"Second",
+  "err_1":"Please select start & end time to continue",
+  "err_2":"invalid start time",
+  "lesson_time":"session time",
+  "subject":"Today's subjects",
+  "update":"Update",
+  "cancel":"Cancel"
+
+}

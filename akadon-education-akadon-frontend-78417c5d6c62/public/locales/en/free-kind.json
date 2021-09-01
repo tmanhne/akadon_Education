@@ -1,0 +1,11 @@
+{
+    "txt_1" : "No trial requested",
+    "txt_2" : "Trial requested",
+    "txt_3" : "Bid",
+    "txt_4" : "Save",
+    "txt_5" : "Your free time",
+    "txt_6" : "Online trial:",
+    "txt_7" : "Yes",
+    "txt_8" : "No",
+    "txt_9" : "Has been a member for <d>{{a}}</d> months, participated in <d>{{v2}}</d> courses"
+}

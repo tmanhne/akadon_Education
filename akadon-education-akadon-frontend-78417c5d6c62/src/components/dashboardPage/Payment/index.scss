@@ -1,0 +1,59 @@
+.payment {
+  overflow-y: auto;
+  height: 100vh;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  thead th {
+    position: sticky;
+    top: 0;
+    background: #fff;
+  }
+  thead tr {
+    vertical-align: text-top;
+    .input-group {
+      width: 10rem;
+    }
+  }
+  tbody {
+    tr {
+      vertical-align: middle;
+    }
+    td {
+      line-height: 56px;
+      border-bottom: 1px solid #c5c6d1;
+      text-align: center;
+    }
+    .fee-box {
+      background: rgba($color: #ff6d34, $alpha: 0.3);
+      width: 7rem;
+      height: 24px;
+    }
+  }
+}
+
+.date-time-box {
+  background: #cde8fe;
+}
+
+.on-paid {
+  background: rgba($color: #03b0a9, $alpha: 0.3);
+  color: #03b0a9;
+}
+
+.on-loan {
+  background: rgba($color: #ed2114, $alpha: 0.3);
+  color: #ed2114;
+}
+
+// long thêm css khi hoce icon eye trong payment
+.payment {
+  .button,
+  .btn {
+    transition: 0.4s ease-in-out;
+    border: none;
+    &:hover {
+      border-radius: 6px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.lesson-feedback {
+  max-width: 576px;
+  .logo-box {
+    margin-bottom: 36px;
+  }
+  legend {
+    font-size: 1rem;
+  }
+  .view-detail {
+    border: 1px solid #0367b4;
+    line-height: 48px;
+    width: 279px;
+    &:hover {
+      color: #0367b4 !important;
+    }
+  }
+}
+
+.review-modal {
+  .title {
+    border-bottom: none !important;
+    font-weight: bold;
+  }
+  .cancel-btn {
+    display: none !important;
+  }
+  .main-btn {
+    line-height: 48px;
+    padding: 0;
+    display: block;
+    width: 279px !important;
+    margin: 0 auto;
+  }
+}

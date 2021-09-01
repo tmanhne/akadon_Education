@@ -1,0 +1,81 @@
+@import "../../index.scss";
+
+.modal-content {
+  border-radius: 12px;
+  border: none;
+}
+
+.disable-overlay {
+  position: relative;
+  cursor: not-allowed !important;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(225, 225, 225, 0.5);
+    border-radius: 100px;
+  }
+}
+
+.setting-page {
+  min-height: 75vh;
+  select,
+  input {
+    height: 48px !important;
+    max-width: 30rem;
+    border-radius: 6px;
+  }
+  .grey-dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #8f8f8f;
+  }
+  .w-450px {
+    max-width: 450px;
+  }
+  label {
+    cursor: pointer;
+  }
+  input[type="radio"] {
+    height: 1rem !important;
+  }
+  &__sidebar {
+    width: 200px;
+    border: none;
+    border-right: 1px solid #d3d3d3;
+
+    a {
+      cursor: pointer;
+      border: none !important;
+    }
+
+    .tab-active {
+      font-weight: 600;
+      border-left: 3px solid $logoColor;
+    }
+  }
+  &__password {
+    margin-left: 5%;
+    .input-group-text {
+      background: #fff;
+      border-left-width: 0;
+      cursor: pointer;
+    }
+    label {
+      min-width: 130px;
+    }
+    input {
+      max-width: 25rem;
+    }
+    .margin-box {
+      margin-left: 145px;
+    }
+    @media screen and (max-width: 992px) {
+      margin-left: 0;
+    }
+  }
+}

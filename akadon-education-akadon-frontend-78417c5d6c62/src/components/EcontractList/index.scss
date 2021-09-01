@@ -1,0 +1,95 @@
+@import "../../index.scss";
+
+.econtract-list {
+  &__nav {
+    .hv-boder {
+      transition: 0.2s ease-out;
+      &:hover {
+        cursor: pointer;
+        border-radius: 5px;
+        background: #f1f3f4 !important;
+      }
+    }
+    .tab,
+    .active-tab {
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      padding: 1rem 0;      
+    }
+    .tab {
+      color: #c5c6d1;
+    }
+    .active-tab {
+      position: relative;
+      color: $hightLightColor;
+      &::after {
+        content: "";
+        position: absolute;
+        height: 3px;
+        background: $hightLightColor;
+        bottom: 0;
+        left: 0;
+        animation-name: growingLength;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+      }
+      @keyframes growingLength {
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 100%;
+        }
+      }
+    }
+  }
+  &__content {
+    margin: 0 -0.75rem;
+    min-height: 70vh;
+    .table-wraper {
+      overflow-y: visible;
+      overflow-x: auto;
+      min-height: 400px;
+    }
+  }
+  &__pre-accept,
+  &__courses {
+    .user-box h5 {
+      font-size: 1rem;
+    }
+    .status {
+      background: rgba($color: #ff6d34, $alpha: 0.3);
+    }
+    .time-box {
+      background: #cde8fe;
+    }
+    .read-flag {
+      background: rgba($color: #ff6d34, $alpha: 0.3);
+    }
+  }
+  &__thead {
+    button {
+      cursor: pointer;
+      transition: 0.2s ease-out;
+      &:hover {
+        border-radius: 5px !important;
+        background: #f1f3f4 !important;
+        box-shadow: none !important;
+      }
+    }
+    .dropdown-item:focus {
+      background: transparent;
+      color: #000;
+      outline: none;
+    }
+    .form-group {
+      margin-bottom: 0;
+      padding: 0.5rem 0;
+    }
+    label {
+      cursor: pointer;
+      width: 100%;
+    }
+  }
+}

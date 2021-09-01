@@ -1,0 +1,53 @@
+{
+  "title": "Request form",
+
+  "header-1": "1. Subject's information",
+  "header-2": "2. Time and fees",
+  "header-3": "3. Student's information and Student’s expectation from Tutor",
+
+  "select-subject": "Select subject",
+  "select-level": "Select level",
+  "select-city": "Select city",
+  "select-dist": "Select district",
+
+  "online": "Online",
+  "offline": "Offline",
+  
+  "field-1": "Budget per lesson",
+  "field-2": "Bạn muốn học trong khoảng thời gian",
+
+  "error-1": "( Invalid header ! )",
+  "error-2": "( Subject name must be selected! )",
+  "error-3": "( Level must be selected ! )",
+  "error-4": "( City must be selected ! )",
+  "error-5": "( District must be selected ! )",
+  "error-6": "( Please input lessons !)",
+  "error-7": "( Invalid time ! )",
+  "error-8": "Must be accept AKADON’s Terms and Conditions to continue",
+  "common-error": "( Invalid value ! )",
+  "complete": "Complete",
+
+  "placeholder-1": "Tell more about yourself (learning ability, interests, goals, etc.) so that your Tutor can understand you better. ",
+  "placeholder-2": "Tell your Tutor how do you want he/she to help you. ",
+
+  "note": "Notes: Please check your information carefully because you cannot edit after your Request is successfully posted ",
+  "request-btn": "Request",
+  "require-field": "required fields",
+  "free_time":"Your freetime slots",
+  "trial_note":"You can have a trial lesson before finalising your tutor selection. So, let us know your free time!",
+  "is_trial":"Would you like to have a trial lesson?",
+  "yes": "Yes",
+  "no": "No",
+  "end_time": "Expected end date",
+  "request_success":"You have successfully posted a request for tutor",
+  "review": "Review",
+  "your_free_time": "Your freetime slots",
+  "online_free_time": "Online trial lesson",
+  "schedule": "Registered lesson schedule",
+  "schedule_note":"If you want to edit this schedule, you can go back to step 1 to find the best freetime slots",
+  "request_success_note": "Tutor request successfully sent! ",
+  
+  "sunday" : "Sunday",
+  "day" : "",
+  "day_eng" : "Day "
+}

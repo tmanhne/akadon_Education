@@ -1,0 +1,56 @@
+{
+  "title": "Requests",
+  "tutor-title": "Requests",
+  "nav-item-1": "Ongoing requests",
+  "nav-item-2": "Pending requests",
+  "nav-item-3": "Past requests",
+  "nav-item-1-hover": "Danh sách các yêu cầu tìm gia sư bạn đã đăng",
+  "nav-item-2-hover": "Danh sách các yêu cầu khi bạn đã chọn 1 gia sư để trao đổi thêm",
+  "nav-item-3-hover": "Danh sách các yêu cầu khi bạn đã ngừng tìm gia sư",
+  "nav-item-1-hover-tutor": "Danh sách các yêu cầu tìm gia sư bạn đã đăng",
+  "nav-item-2-hover-tutor": "Danh sách các yêu cầu khi bạn đã chọn 1 gia sư để trao đổi thêm",
+  "nav-item-3-hover-tutor": "Danh sách các yêu cầu khi bạn đã ngừng tìm gia sư",
+
+  "save-request": "Saved request",
+  "tutor-item-1": "Taught requests",
+  "tutor-item-2": "Pending requests",
+  "tutor-item-3": "Closed requests ",
+
+  "empty-request": "Bạn chưa có yêu cầu mới cho môn học nào.",
+  "student-btn":"Post new request",
+
+  "header-1": "Date posted",
+  "header-2": "Subject",
+  "header-3": "Student's level",
+  "header-4": "Budget",
+  "header-5": "List of applicants",
+  "header-6": "Top priorities",
+  "header-7": "Bid",
+  "header-8": "Status",
+  "header-9": "VNĐ/times",
+  "header-10": "Tutor",
+
+  "status-1": "Pending",
+  "status-2": "In Negotiation",
+  "push-status-1": "Keep on top",
+  "push-status-2": "Success",
+  "currency-unit": "VND/lesson",
+
+  "detail": "List of applicants",
+  "detail-empty": "Wait a bit, a Tutor is coming!",
+
+  "student-1": "tutors have applied",
+  "student-2": "Date ",
+  "student-3": "Rating",
+  "student-4": "Bid",
+  "empty_filter": "Content unavailable",
+  "empty_request": "You have no trial session",
+  "filter": "Filter",
+  "push_text": "Bump your requests for 7 days, starting at",
+  "push_now": "Bump now",
+  "no_thanks": "No, thanks",
+  "request_detail":"Request Detail",
+  "reopen_request":"Reopen request",
+
+  "":""
+}

@@ -1,0 +1,186 @@
+@import "../../../index.scss";
+
+select,
+input[type="time"],
+input[type="date"] {
+  height: 48px !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-image: url("../../../assets/icons/calendar-icon.svg");
+  cursor: pointer;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.fc-daygrid-day-events {
+  position: absolute !important;
+}
+
+.circle-icon {
+  width: 36px;
+  height: 36px;
+  color: #fff !important;
+}
+
+.subject-info-form,
+.time-and-fee-input,
+.user-info-form {
+  .main-btn {
+    width: 13rem;
+    line-height: 48px;
+  }
+}
+
+.time-and-fee-input {
+  .custom-border-radius {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  .plus-btn {
+    width: 36px;
+    height: 36px;
+    background: $logoColor;
+    font-size: 1.5rem;
+  }
+  .suggest-time {
+    max-width: 576px;
+    & > .flex-box {
+      height: 48px;
+    }
+    input[type="time"],
+    .dropdown-btn {
+      height: 46px !important;
+    }
+  }
+  .date-box .react-datepicker-wrapper {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: url("../../../assets/icons/calendar-icon.svg");
+      top: 50%;
+      right: 0.5rem;
+      transform: translateY(-50%);
+    }
+    input {
+      border: 1px solid #dee2e6;
+    }
+  }
+}
+
+.review-schedule {
+  .modal-content {
+    min-width: 50rem;
+  }
+}
+
+.absolute-mask {
+  top: 5rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+@media screen and (max-width: 1200px) {
+  .block-1 {
+    flex-direction: column !important;
+    width: 50% !important;
+    .form-group {
+      width: 100% !important;
+    }
+    .form-group:nth-child(2) {
+      padding-left: 0 !important;
+    }
+  }
+  .block-2 {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subject-info-form {
+    & > .form-group,
+    & > .flex-box {
+      margin-right: 0 !important;
+    }
+    .offline-box {
+      flex-direction: column !important;
+      .form-check:first-child {
+        margin-right: 0 !important;
+        margin-bottom: 0.5rem;
+      }
+      .form-check:nth-child(2) {
+        width: 100%;
+      }
+      .address-box {
+        .form-group {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .time-and-fee-input {
+    .trial-checkbox {
+      flex-direction: column;
+      align-items: flex-start;
+      p,
+      label {
+        margin-bottom: 0.5rem !important;
+      }
+      label {
+        margin-left: 1rem !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .subject-info-form {
+    .subject-and-level-box,
+    .address-box {
+      flex-direction: column;
+      .form-group {
+        width: 100% !important;
+        margin-right: 0 !important;
+      }
+    }
+    .address-box .form-group {
+      margin-left: -2rem;
+    }
+    .address-box .form-group:first-child {
+      margin-bottom: 0.5rem !important;
+    }
+  }
+  .time-and-fee-input {
+    .mobile-row {
+      flex-direction: column;
+      .form-group {
+        width: 100% !important;
+        margin-right: 0 !important;
+      }
+    }
+    .date-box input {
+      width: 100% !important;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .subject-info-form,
+  .time-and-fee-input,
+  .user-info-form {
+    .main-btn {
+      width: 100%;
+      flex-direction: row;
+    }
+    .react-datepicker-wrapper {
+      width: 100%;
+      input {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.withdrawal {
+  background-image: url("../../../assets/images/withdrawal.jpg");
+  background-size: 550px 340px;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  .form-group {
+    width: 450px;
+    input {
+      border-radius: 0 6px 6px 0;
+      height: 48px;
+    }
+    .input-group-text {
+      border-radius: 6px 0 0 6px;
+    }
+  }
+  .free-back-remain {
+    background: #eaf4fc;
+  }
+  .bell-icon {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+  }
+  input[type="radio"] {
+    height: 1rem;
+  }
+  .cash-amount-group {
+    input {
+      border-radius: 6px 0 0 6px;
+    }
+    .input-group-text {
+      border-radius: 0 6px 6px 0;
+    }
+    .main-btn {
+      width: 15rem;
+    }
+  }
+}

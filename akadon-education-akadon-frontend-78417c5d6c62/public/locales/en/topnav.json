@@ -1,0 +1,22 @@
+{
+  "header-1": "Messages",
+  "header-2": "Notifcations",
+  "header-3": "Profile",
+  "header-4": "Payment",
+  "header-5": "Setting",
+  "header-6": "Logout",
+  "header-7": "Upgrade account",
+  "mark-read": "Mark read",
+
+  "sun": "Sunday",
+  "mon": "Monday",
+  "tue": "Tuesday",
+  "wes": "Wednesday",
+  "thu": "Thursday",
+  "fri": "Friday",
+  "sat": "Satuday",
+  
+  "day":"Day",
+  "month":"Month",
+  "years":"Year"
+}

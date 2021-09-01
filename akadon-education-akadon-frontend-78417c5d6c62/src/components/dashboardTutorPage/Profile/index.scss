@@ -1,0 +1,72 @@
+.camera-box {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.3) 34%,
+    rgba(255, 255, 255, 0) 34%
+  );
+}
+
+.profile {
+  &__info-hbi {
+    .hbi-card {
+      width: 33%;
+    }
+  }
+  .main-btn,
+  .cancel-btn {
+    line-height: 38px;
+  }
+}
+
+.checkbox-dropdown {
+  .dropdown-btn {
+    height: 48px;
+    border: 1px solid #ced4da;
+    white-space: normal;
+  }
+  .dropdown-toggle::after {
+    position: absolute;
+    top: 20px;
+    right: 8px;
+  }
+  .dropdown-item {
+    height: 48px;
+    label {
+      line-height: 48px;
+    }
+    &:focus {
+      background: #fff;
+      color: #000;
+      outline: none;
+    }
+  }
+  .position-absolute {
+    right: 5px;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .profile {
+    &__info-hbi {
+      .hbi-card {
+        width: 43%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .profile {
+    &__info-hbi {
+      flex-direction: column;
+      .hbi-card {
+        width: 100%;
+        margin-top: 1rem;
+      }
+    }
+    &__info-card {
+      margin-right: 0 !important;
+    }
+  }
+}

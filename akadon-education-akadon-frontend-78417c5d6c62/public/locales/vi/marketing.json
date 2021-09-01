@@ -1,0 +1,19 @@
+{
+  "header":"YÊU CẦU TÌM GIA SƯ",
+  "content_1":"Đã là thành viên ",
+  "content_2":" tháng, tham gia ",
+  "content_3":" khóa học",
+  "content_4":"Học viên yêu cầu học thử",
+  "title":"Tiêu đề: ",
+  "subject":"Tên môn học: ",
+  "level":"Trình độ: ",
+  "budget":"Ngân sách cho 1 buổi học: ",
+  "method":"Hình thức học: ",
+  "content_5":"Để đề nghị dạy, hãy ",
+  "register":"ĐĂNG KÝ",
+  "login":"ĐĂNG NHẬP",
+  "or":" hoặc ",
+  "fallback_1":"Yêu cầu đã có người dạy hoặc đã đóng",
+  "fallback_2":"Để xem thêm các",
+  "fallback_3":"yêu cầu khác bạn hãy"
+}

@@ -1,0 +1,75 @@
+@import "../../../index.scss";
+.DayPicker {
+  width: 100%;
+}
+
+.Selectable
+  .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background: #eaf4fc !important;
+  color: #000;
+}
+.Selectable .DayPicker-Day {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  width: 35px;
+  height: 35px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+.Selectable {
+  .DayPicker-Day--end {
+    border-top-right-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+    background: $logoColor !important;
+    color: #fff !important;
+  }
+  .DayPicker-Day--start {
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+    background: $logoColor !important;
+    color: #fff !important;
+  }
+}
+.DayPicker-Weekday {
+  color: #000;
+}
+.DayPicker-Day--today {
+  color: $logoColor !important;
+}
+
+// hover for filter dayclick
+.Selectable {
+  .DayPicker-Day {
+    transition: 0.2s ease-out;
+    &:hover {
+      border-radius: 50% !important;
+      box-shadow: 0px 9px 13px rgba(3, 103, 180, 0.15) !important;
+      transform: translateY(-4px);
+    }
+  }
+}
+
+.filter-container {
+  & > button {
+    width: 12rem;
+    padding: 12px;
+  }
+
+  .dropdown-menu {
+    max-height: 30rem;
+    overflow-y: auto;
+  }
+
+  .dropdown-item {
+    line-height: 36px !important;
+    padding-right: 0;
+    &:active {
+      background: transparent;
+      color: #000;
+    }
+  }
+
+  .filter-icon {
+    filter: invert(0.6);
+  }
+}

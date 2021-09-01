@@ -1,0 +1,44 @@
+.system-messages {
+  .read-all:hover {
+    background: #fff !important;
+    box-shadow: none !important;
+    text-decoration: underline;
+  }
+  .box-shadow-bottom {
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  a,
+  .box-shadow-bottom {
+    color: #4b4b4b;
+  }
+  .absolute-icon {
+    bottom: 0;
+    right: -5px;
+  }
+  .new-item {
+    background: #fffff1;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      background: #fff;
+    }
+  }
+
+  .avatar-box {
+    position: relative;
+    margin-right: 12px;
+    border-radius: 50%;
+    padding: 0.25rem;
+    background: #fff;
+    img {
+      vertical-align: middle;
+      border-radius: 50%;
+    }
+  }
+
+  .title {
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    color: #000;
+  }
+}

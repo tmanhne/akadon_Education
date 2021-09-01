@@ -1,0 +1,242 @@
+@import "../../../index.scss";
+
+.update-account__modal {
+  .modal-dialog {
+    max-width: 100%;
+  }
+  .modal-content {
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .card-container {
+    height: calc(100% + 7rem);
+    margin-top: 7rem;
+    padding: 0 1rem;
+  }
+  // BG img upgrade
+  .pro,
+  .stand,
+  .basic {
+    height: 32.5rem;
+    width: 25.6rem;
+    margin: 1.5rem 0.5rem;
+    background: #eaf4fc;
+    img {
+      top: -25px;
+      right: 24px;
+    }
+    .fee-kind {
+      z-index: 1;
+      right: 46px;
+      top: -14px;
+      height: 5rem;
+      width: 8rem;
+      text-align: center;
+      font-weight: 600;
+      font-size: 24px;
+      color: white;
+      p {
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 12px;
+      }
+    }
+  }
+  .pro {
+    .sign-upgrade {
+      font-weight: bold;
+      text-align: center;
+      color: #ffffff;
+      background: $logoColor;
+      outline: none;
+      transition: 0.2s ease-out;
+      &:hover {
+        cursor: pointer;
+        color: #ffffff !important;
+        text-decoration: none;
+        box-shadow: 0px 0px 12px rgba(3, 103, 180, 0.5) !important;
+      }
+    }
+  }
+  .stand {
+    .sign-upgrade {
+      font-weight: bold;
+      text-align: center;
+      color: white !important;
+      background: #ff6d34 !important;
+      border: 1px solid #ff6d34 !important;
+      transition: 0.2s ease-out;
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 12px rgba(255, 109, 52, 0.5) !important;
+      }
+    }
+  }
+  //END BG img upgrade
+
+  .card-style {
+    min-width: 300px;
+    cursor: pointer;
+    transition: 0.35s ease-in-out;
+    transform: translateY(10px) !important;
+    .month {
+      color: white !important;
+    }
+    &:hover {
+      transform: translateY(-4px);
+    }
+    .curent-upgrade,
+    .sign-upgrade {
+      height: 48px;
+      border: 1px solid #0367b4;
+      border-radius: 100px;
+    }
+    .curent-upgrade {
+      background: #f0f2f5;
+      color: #03b0a9;
+    }
+  }
+  .translate-y-box {
+    transform: translateY(-5rem) !important;
+    &:hover {
+      transform: translateY(calc(-5rem - 4px));
+    }
+  }
+}
+
+.upgrade-form {
+  padding-bottom: 0 !important;
+  .form-content {
+    max-width: 40rem;
+    margin-left: 10%;
+  }
+  .step-box {
+    .step-count {
+      min-width: 2rem;
+      height: 2rem;
+    }
+    .step-active {
+      background: $hightLightColor !important;
+      color: #fff !important;
+    }
+    .text-active {
+      color: #000 !important;
+    }
+  }
+
+  .standard-btn {
+    background: $ctaBg2;
+  }
+  .pro-btn {
+    background: $ctaBg1;
+    &:hover {
+      box-shadow: 0px 0px 12px rgba(255, 70, 14, 0.5) !important;
+    }
+  }
+  .inactive-btn {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.legalcy-content-modal {
+  .modal-content,
+  .modal-dialog {
+    max-width: 75rem;
+  }
+  table {
+    background: #eaf4fc;
+    border: 2px solid $logoColor;
+    td {
+      border: 2px solid $logoColor;
+    }
+    ol,
+    ul {
+      padding: 0 12px;
+      list-style-type: none;
+    }
+    ol {
+      li:nth-child(1)::before {
+        content: "1.";
+      }
+      li:nth-child(2)::before {
+        content: "2.";
+      }
+      li:nth-child(3)::before {
+        content: "3.";
+      }
+      li {
+        margin-left: 0.5rem;
+      }
+      li:before {
+        color: red;
+        font-weight: 600;
+        position: absolute;
+        left: 0;
+      }
+    }
+    ul li {
+      margin-bottom: 12px;
+    }
+    td {
+      padding: 12px;
+    }
+  }
+  .cost-block,
+  .time-block {
+    padding: 1.2rem 2.2rem;
+    width: 47%;
+    img {
+      left: -1rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .cost-block {
+    background: #c3eed5;
+  }
+  .time-block {
+    background: #f9deda;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .update-account__modal {
+    .card-style {
+      height: 34.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .upgrade-form {
+    .form-content {
+      flex-direction: column;
+    }
+    .align-self-end {
+      align-self: center !important;
+    }
+  }
+  .update-account__modal {
+    .card-container {
+      flex-direction: column !important;
+      align-items: center !important;
+      padding: 0 1rem;
+      margin-top: 2rem;
+      padding-bottom: 1rem;
+    }
+    .card-style {
+      width: 98%;
+      transform: translate(0, 0) !important;
+      margin: 15px 0 0;
+      &:nth-child(even) {
+        margin: 2.5rem 0 2rem 0 !important;
+      }
+    }
+  }
+}

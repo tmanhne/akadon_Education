@@ -1,0 +1,17 @@
+{
+    "pen_1" : "Penalty structure & spontaneous re-schedule",
+    "pen_2" : "Warning: penalties will only be applied when using Akadon's schedules to manage, we will not take responsibilities otherwise",
+    "pen_3" : "When student or tutor would like to change the schedule, both side should change at least 24h beforehand",
+    "pen_4" : "If re-schedule under 24h beforehand:",
+    "pen_5" : "24h-12h: 5-10% fees penalty",
+    "pen_6" : "12h-6h 10-20% fees penalty",
+    "pen_7" : "<5: 30% fees penalty",
+    "pen_8" : "2h: 50% fees penalty",
+    "pen_9" : "Change schedule",
+
+    "pen_10" : "Current session",
+    "pen_11" : "Change schedule",
+    "pen_12" : "Please select new session",
+    "pen_13" : "Cancel",
+    "pen_14" : "Confirm"
+}

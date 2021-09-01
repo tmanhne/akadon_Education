@@ -1,0 +1,50 @@
+@import "../../../index.scss";
+
+.teach-request {
+  &__form {
+    select,
+    input {
+      height: 38px !important;
+    }
+
+    .edit-icon {
+      width: 36px;
+      height: 36px;
+    }
+
+    .w-33 {
+      width: 32%;
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      background-image: url("../../../assets/icons/calendar-icon.svg");
+      cursor: pointer;
+    }
+    .delete-btn {
+      color: #ed2114;
+      font-size: 24px;
+      right: 0;
+      top: 0;
+      transform: translate(12px, 5px);
+    }
+    .plus-btn {
+      width: 36px;
+      height: 36px;
+      background: $logoColor;
+      font-size: 1.5rem;
+    }
+  }
+  &__sidebar {
+    width: 440px;
+  }
+}
+
+@media screen and(max-width: 1200px) {
+  .teach-request {
+    flex-direction: column !important;
+    &__form,
+    &__sidebar {
+      width: 100%;
+    }
+  }
+}

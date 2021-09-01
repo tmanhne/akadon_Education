@@ -1,0 +1,107 @@
+@import "../../../../index.scss";
+
+.revenue {
+  &__overview {
+    height: 178px;
+    .bank-list {
+      overflow-y: auto;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      .default-box {
+        background: #03b0a9;
+      }
+    }
+    .card-style:nth-child(1) {
+      width: 60%;
+      min-height: 160px;
+      background-image: url("../../../../assets/images/revenue-bg.png");
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .card-style:nth-child(2) {
+      width: 40%;
+    }
+    .add-bank-info {
+      background: #f1f1f1 !important;
+    }
+  }
+  &__history-filter {
+    .filter-date {
+      width: 264px;
+      height: 48px;
+      border: 1px solid #d3d3d3 !important;
+      background: #fff !important;
+      &:hover {
+        background: #fff !important;
+      }
+      &:focus {
+        box-shadow: none !important;
+      }
+    }
+    .calendar-icon {
+      background: #e0ecf5;
+    }
+  }
+  &__history-nav {
+    .nav-tabs {
+      background: #fdfeff;
+    }
+    .nav-item {
+      width: 33.33%;
+      line-height: 48px;
+      margin: 0;
+      border-bottom: 3px solid transparent;
+      transition: 0.35s ease-in-out;
+      &:hover {
+        border-color: #f1f3f4;
+      }
+    }
+    .nav-item-active {
+      border-color: $hightLightColor !important;
+      .nav-link {
+        color: $hightLightColor !important;
+      }
+    }
+  }
+  &__history-all {
+    thead {
+      line-height: 48px;
+      th {
+        background: #d3d3d3 !important;
+        &:nth-child(1) {
+          border-radius: 6px 0px 0px 0px;
+        }
+        &:nth-child(4) {
+          border-radius: 0px 6px 0px 0px;
+        }
+      }
+    }
+    tbody tr {
+      line-height: 48px;
+    }
+    .status-success,
+    .status-fail {
+      width: 127px;
+      height: 26px;
+    }
+
+    .status-fail {
+      background: rgba($color: #ff6d34, $alpha: 0.3);
+    }
+
+    .status-success {
+      background: rgba($color: #03b0a9, $alpha: 0.3);
+    }
+  }
+}
+
+
+.page-coming{
+  transform: none !important;
+  text-align: center;
+  img{
+    width: 40% !important;
+    margin-bottom: 0 !important;
+  }
+}

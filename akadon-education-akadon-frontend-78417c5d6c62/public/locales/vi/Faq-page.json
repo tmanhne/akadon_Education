@@ -1,0 +1,103 @@
+{
+    "header_title":"Những câu hỏi thường gặp",
+    "box_1":"Học viên",
+
+    "quest_title":"1. AKADON cung cấp dịch vụ gì?",
+    "quest_1":"<p>Akadon Education </p>là website kết nối Học viên với Gia sư nhanh chóng và an toàn.",
+    "quest_2":"Sau khi kết nối, Gia sư và Học viên có thể học trực tiếp tại nhà, hoặc học online ngay trên webiste của AKADON với nhiều tiện ích hỗ trợ học tập và hệ thống quản lý lớp học thông minh.",
+
+    "quest_title_1":"2. Quy trình tìm gia sư tại AKADON như thế nào?",
+    "quest_3_tran":"You can find a suitable Tutor on Akadon in 6 simple steps:",
+    "quest_3":"<p>Bước 1 - YÊU CẦU:</p> Học viên đăng yêu cầu tìm gia sư MIỄN PHÍ trên website<a>Akadon Education</a>. Yêu cầu này sẽ được chuyển tới các Gia sư có chuyên môn liên quan để họ đăng ký dạy.",
+    "quest_4":"<p>Bước 2 - LỰA CHỌN:</p> Học viên chọn 01 Gia sư phù hợp từ danh sách những người đăng ký.",
+    "quest_5":"<p>Bước 3 - TRAO ĐỔI:</p> Sau khi chọn 01 Gia sư, hệ thống chat sẽ được mở để Học viên trao đổi thêm với Gia sư về nội dung Khóa học và thay đổi nếu cần.",
+    "quest_6":"<p>Bước 4 - THỐNG NHẤT:</p> Học viên và Gia sư thống nhất nội dung Khóa học và thành lập <p>Hợp đồng điện tử (E-contract)</p>.",
+    "quest_7":"<p>Bước 5 - VÀO HỌC:</p> Học viên và Gia sư học tại nhà, hoặc học online trên website<hightlin>Akadon Education</hightlin>.",
+    "quest_8":"<p>Bước 6 - THANH TOÁN:</p> Học viên thanh toán cho Gia sư ngay sau mỗi buổi học.",
+    "quest_9":"Ghi chú: Tại bất cứ bước nào từ bước 1-4, Giáo viên hoặc Học viên đều có quyền ngừng kết nối với bên còn lại.",
+    "quest_10":"<hightlin>Xem chi tiết tại Sổ tay hướng dẫn của Akadon.</hightlin>",
+
+    "quest_title_2":"3. Học viên có thể tìm gia sư cho những môn học nào?",
+    "quest_11":"Tại Akadon, Học viên có thể tìm Gia sư để bổ sung kiến thức cho các môn học phổ thông từ lớp 1 đến lớp 12 như: Toán, Văn, Anh, Lý, Hóa, Sinh, Sử, Địa.",
+
+    "quest_title_3":"4. Học viên có thể học tập qua những hình thức nào?",
+    "quest_12":"Sau khi kết nối, Học viên và Gia sư có thể học tập theo 2 hình thức:",
+    "quest_13":"Học tại nhà: Gia sư có thể đến nhà Học viên để giảng dạy trực tiếp nếu khoảng cách địa lý cho phép.",
+    "quest_14":"Học online (trên website của AKADON): Gia sư và Học viên có thể học online ngay trên website<hightlin>Akadon Education</hightlin> với các tính năng học tập đa dạng (video call, chat, hệ thống nộp bài tập, làm bài kiểm tra, chấm điểm,…) và hệ thống quản lý lớp học thông minh.",
+
+    "quest_title_4":"5. Học phí trung bình cần trả cho gia sư là bao nhiêu?",
+    "quest_15":"Chi phí dạy của gia sư cho 1 buổi học 2 tiếng sẽ dao động từ 150.000 VNĐ - 350.000 VNĐ tùy theo kinh nghiệm giảng dạy",
+
+    "quest_title_5":"6. Học viên có thể trả học phí qua những hình thức nào?",
+    "quest_16":"Học viên có thể trả học phí theo 2 hình thức:",
+    "quest_17":"Thanh toán trực tiếp: Nếu Gia sư đến dạy tại nhà, Học viên có thể thanh toán luôn bằng tiền mặt cho Gia sư.",
+    "quest_18":"Chuyển khoản: Học viên chuyển khoản học phí cho Gia sư qua tài khoản cá nhân.",
+    "quest_19":"Qua cổng thanh toán của Akadon: Ngay trên website của Akadon tích hợp cổng thanh toán với độ bảo mật cao để Học viên tiện sử dụng, Học viên có thể xem lại toàn bộ các sao kê của từng Buổi học/Khóa học khi sử dụng hình thức này.",
+
+    "quest_title_6":"7. Học viên có thể trao đổi với gia sư bằng cách nào?",
+    "quest_20":"<p>Ở bước 3 - Trao đổi : </p>khi Học viên chọn 01 Gia sư, hệ thống chat sẽ được mở để Gia sư và học viên có thể trò chuyện với nhau. Từ bước 3 cho tới hết Khóa học, chat sẽ luôn được mở",
+    "quest_21":"Hệ thống chat chỉ đóng khi Gia sư và Học viên không còn kết nối.",
+
+    "quest_title_7":"8. Hợp đồng điện tử (E-contract) là gì?",
+    "quest_22":"<p>Hợp đồng điện tử (E-contract)</p> là hợp đồng thống nhất nội dung dạy học giữa Học viên và Gia sư.",
+    "quest_23":"Bất kỳ thay đổi nào trong suốt quá trình học sẽ được cập nhật trong Hợp đồng để Học viên và Gia sư xem lại.",
+    "quest_24":"Hợp đồng này có tác dụng bảo vệ quyền lợi của cả hai bên nếu trong quá trình học hoặc sau khi ngừng học xảy ra tranh chấp (về học phí, thời gian học, nội dung học).",
+
+    "quest_title_8":"9. Học viên làm thế nào để báo cáo nếu nhận thấy hành vi không đứng đắn từ phí gia sư?",
+    "quest_25":"Nếu học tại nhà, Học viên có thể báo cáo trên website của Akadon về các hành vi không đúng mực của Gia sư trong quá trình dạy.",
+    "quest_26":"Nếu học online qua video call, Học viên có thể báo cáo ngay trong khi học trên hệ thống video call.",
+
+    "quest_title_9":"10. Chỉ số hành vi (ABI) là gì?",
+    "quest_27":"Chỉ số hành vi <p>(Average Behavioral Index - viết tắt là ABI)</p> là chỉ số đo lường hành vi của người dùng trên website của Akadon. Dựa vào chỉ số này, người dùng sẽ được hệ thống thưởng hoặc phạt tương ứng.",
+    "quest_28":"Chỉ số này có mức ban đầu là 100.",
+    "quest_29":"Nếu hành vi của người dùng tốt (được nhiều đánh giá 5 sao) thì chỉ số sẽ tăng lên. Mức cao nhất là 125.",
+    "quest_30":"Nếu hành vi của người dùng không tốt (bị cảnh báo nhiều lần, có các hành vi không đúng mực) thì chỉ số sẽ giảm đi. Mức thấp nhất là 75.",
+    "quest_31":"Ý nghĩa của các mức điểm như sau:",
+    "quest_32":"75 - 80: Hành vi kém",
+    "quest_33":"80 - 90: Hành vi chưa tốt",
+    "quest_34":"90 - 100: Hành vi tương đối tốt",
+    "quest_35":"100 -110: Hành vi tốt",
+    "quest_36":"110 - 115: Hành vi rất tốt",
+    "quest_37":"115 - 125: Hành vi xuất sắc",
+
+
+    "box_2" : "Gia sư",
+
+    "quest_title_10":"3. Làm thế nào để trở thành gia sư của AKADON?",
+    "quest_38":"Để đăng ký làm Gia sư của Akadon, người dùng cần đủ 18 tuổi trở lên.",
+    "quest_39":"Gia sư có thể là:",
+    "quest_40":"Sinh viên.",
+    "quest_41":"Giáo viên các cấp/Giảng viên đại học.",
+    "quest_42":"Người đi làm muốn kiếm thêm thu nhập.",
+    "quest_42_tran":"Hãy đăng ký làm gia sư!",
+    "quest_43":"Để đăng ký, Gia sư tạo tài khoản trên website của Akadon và chọn gói tài khoản phù hợp với nhu cầu cá nhân.",
+
+    "quest_title_11":"4. Gia sư có thể đăng ký những loại tài khoản nào?",
+    "quest_44":"Có 3 gói tài khoản cho gia sư là:",
+    "quest_45":"Gói cơ bản: Miễn phí.",
+    "quest_46":"Gói Tiêu chuẩn: 299.000 VNĐ/tháng.",
+    "quest_47":"Gói Chuyên nghiệp: 599.000 VNĐ/tháng.",
+    "quest_48":"Chi tiết về các gói tài khoản và giải thích các mức phí, Gia sư vui lòng xem tại đây: <hightlin>Chi tiết các gói và mức phí</hightlin>.",
+
+    "quest_title_12":"5. Lý lịch tư pháp là gì và vì sao cần có lý lịch tư pháp?",
+
+    "quest_title_13":"6. Mức thu nhập trung bình của gia sư là bao nhiêu?",
+    "quest_49":"Mỗi gia sư sẽ có mức tổng thu nhập khác nhau tùy vào số lượng học sinh và số buổi dạy trong tuần. Nếu làm Gia sư toàn thời gian, tổng thu nhập có thể lên đến 20 triệu VNĐ/tháng.",
+
+    "quest_title_14":"7. Học viên trả học phí cho gia sư qua hình thức nào?",
+    "quest_50":"Qua cổng thanh toán của Akadon: Ngay trên website của Akadon tích hợp cổng thanh toán với độ bảo mật cao để Học viên tiện sử dụng. Học phí từ Học viên sẽ được chuyển vào số dư tài khoản trên website của Gia sư. Khi thanh toán qua hình thức này, Gia sư có thể xem lại thống kê thu nhập của mình qua từng tuần/tháng và có thể rút tiền ra khỏi tài khoản bất kỳ lúc nào.",
+
+    "quest_title_15":"8. Hợp đồng điện tử (E-contract) là gì?",
+
+    "quest_title_16":"9. Gia sư làm thế nào để trao đổi với học viên?",
+
+    "quest_title_17":"10. Gia sư làm thế nào để báo cáo nếu nhận thấy hành vi không đứng đắn từ phí học viên?",
+    "quest_54":"Nếu học tại nhà, Gia sư có thể báo cáo trên website của Akadon về các hành vi không đúng mực của Học viên trong quá trình dạy.",
+    "quest_55":"Nếu học online qua video call, Gia sư có thể báo cáo ngay trong khi dạy trên hệ thống video call.",
+ 
+    "quest_title_18":"2. Quy trình kết nối với học viên tại AKADON như thế nào?",
+    "quest_56_tran":"Bạn có thể tìm học viên phù hợp tại Akadon với 6 bước đơn giản:",
+  
+    "quest_title_19":" 11. CHỉ số hành vi là gì?"
+   
+}

@@ -1,0 +1,11 @@
+.decline-str {
+  border-radius: 60px;
+  border: 1px solid #d3d3d3;
+  &:hover {
+    background: #eaf4fc;
+  }
+}
+
+.active {
+  background: #eaf4fc;
+}

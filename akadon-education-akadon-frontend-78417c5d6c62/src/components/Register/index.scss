@@ -1,0 +1,302 @@
+@import "../../index.scss";
+
+.title-sign-up {
+  font-size: 2rem;
+  color: #0367b4;
+}
+
+.register-page {
+  min-height: 100vh;
+  input[type="date"],
+  select {
+    height: 48px;
+  }
+  .main-btn {
+    height: 48px;
+  }
+  // hiệu ứng nút mới
+  .register-redirect {
+    .main-btn-new {
+      height: 48px;
+      &:hover {
+        .btn-arrow {
+          transform: translateX(0.5rem);
+        }
+      }
+    }
+  }
+
+  &__banner {
+    width: 45%;
+    background-image: url("../../assets/images/userBg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    img {
+      margin-top: 2.25rem;
+      margin-left: 8.5%;
+      width: 170px;
+    }
+  }
+  &__content {
+    width: 55%;
+    .header-box {
+      line-height: 4rem;
+      margin-bottom: 3.5rem;
+      position: relative;
+      h1 {
+        font-size: 3rem !important;
+        font-weight: 600;
+      }
+      &::after {
+        content: "";
+        height: 6px;
+        width: 3rem;
+        border-radius: 1.25rem;
+        background: $logoColor;
+        position: absolute;
+        bottom: -1.25rem;
+        left: 0;
+      }
+    }
+    label {
+      cursor: pointer;
+    }
+    .register-redirect {
+      .main-btn {
+        height: 48px;
+      }
+    }
+  }
+  &__user-type-register {
+    margin-top: 15%;
+    width: 475px;
+    .user-type {
+      border-radius: 16px;
+      padding: 30px 36px;
+      margin-bottom: 36px;
+      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+      &:hover {
+        svg {
+          transform: translateY(-3px);
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+
+  &__email-password-form,
+  &__info {
+    width: 600px;
+    label {
+      width: 150px;
+      text-align: right;
+      margin-right: 1rem;
+    }
+    input,
+    .input-group,
+    select {
+      width: 400px;
+      flex-grow: 1;
+    }
+    .password-validate {
+      margin-left: 160px;
+    }
+    .input-group-text {
+      border-radius: 0 6px 6px 0;
+    }
+  }
+  &__email-password-form {
+    .oauth2 .main-btn-new:hover {
+      .btn-arrow {
+        transform: translateX(6.4rem);
+      }
+      .facebook-class{
+        transform: translateX(4.4rem);
+      }
+    }
+  }
+
+  &__progress {
+    .step {
+      width: 50%;
+      div {
+        min-width: 24px;
+        min-height: 24px;
+        cursor: pointer;
+      }
+    }
+    .step-active {
+      div {
+        border: none;
+        color: #ffffff !important;
+        background: $hightLightColor;
+      }
+      span {
+        font-weight: bold;
+        color: #000000 !important;
+      }
+    }
+    .dots-style {
+      letter-spacing: 5px;
+    }
+  }
+}
+
+.register-progress-tooltip {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .register-page {
+    &__progress {
+      .step {
+        width: 25%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .register-page {
+    .input-file {
+      label {
+        right: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .register-page {
+    form {
+      width: 100%;
+    }
+    &__email-password-form,
+    &__info {
+      .input-file {
+        .file-name {
+          max-width: 24rem;
+        }
+      }
+    }
+    &__progress {
+      width: 100%;
+      span {
+        display: none;
+      }
+      .step {
+        width: 25%;
+      }
+    }
+    &__email-password-form {
+      width: 100%;
+      input,
+      .input-group {
+        width: 300px;
+      }
+    }
+  }
+  .register-progress-tooltip {
+    display: block;
+    background: #fff;
+    .tooltip-inner {
+      color: #8f8f8f;
+      background: #fff;
+    }
+  }
+  .active-tooltip {
+    .tooltip-inner {
+      color: #ffffff !important;
+      background: $logoColor;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .register-page {
+    &__banner {
+      width: 40%;
+    }
+    &__content {
+      width: 60%;
+      .content-wraper {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+      }
+    }
+    &__email-password-form {
+      .password-validate {
+        max-width: 24rem;
+      }
+    }
+    &__user-type-register {
+      width: 425px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .register-page {
+    &__banner {
+      display: none;
+    }
+    &__content {
+      width: 100%;
+      .header-box {
+        h1 {
+          font-size: 2rem !important;
+        }
+      }
+    }
+    &__user-type-register {
+      width: 100%;
+    }
+  }
+  .mobile-bottom-bar {
+    width: 134px;
+    height: 5px;
+    background: #000;
+    border-radius: 100px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .register-page {
+    &__email-password-form,
+    &__verify,
+    &__info {
+      .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      label {
+        text-align: left !important;
+        margin-bottom: 0.5rem !important;
+        width: 100%;
+        p {
+          text-align: left !important;
+          margin-bottom: 0;
+        }
+      }
+      input,
+      .input-group,
+      select {
+        width: 100%;
+        margin-left: 0 !important;
+      }
+      .check-box {
+        flex-direction: row;
+        margin-left: 0 !important;
+        label {
+          margin-left: 1.25rem;
+        }
+        input {
+          margin-top: 3px;
+        }
+      }
+      .password-validate {
+        margin-left: 0;
+      }
+    }
+  }
+}

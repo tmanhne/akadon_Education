@@ -1,0 +1,34 @@
+{
+  "rg-btn": "Type of account",
+  "account-status": "Current Account",
+  "month": "/ month",
+  "popular": "popular",
+  "next": "Next",
+  "view-more": "Read more",
+  "price-end": "$/month",
+  "current":"Select acount",
+
+  "kind-bs": "Basic",
+  "kind-std": "Standard",
+  "kind-pro": "Professional",
+
+  "title": "Tutor registration",
+  "header-1": "Account Type",
+  "header-2": "Verified Judicial Records",
+  "yes": "Yes",
+  "no": "No",
+  "header-3": "ID/ Passport",
+  "header-3-placeholder": "ID/ Passport code",
+  "header-4": "Photo: A photo of yourself holding your ID/ passport (clear and legible)",
+  "header-4-label": "Upload",
+  "header-5": "Verified Judicial Records",
+
+  "step-1": "Registration",
+  "step-2": "Confirmation",
+  "step-2-text": "Your account already confirmed",
+  "step-3": "Payment",
+
+  "alert-1": "You need to have judicial records to sign up this account!",
+  "alert-2": "You must verify judicial records before proceeding.",
+  "alert-3": "Your profile is about to complete. Please wait for our confirmation!"
+}

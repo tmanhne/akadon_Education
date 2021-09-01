@@ -1,0 +1,66 @@
+@import "../../index.scss";
+
+p{
+  margin: 0.25rem;  
+}
+// TermsOfService
+
+.left {
+    padding-left: 3rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: justify;
+  
+    .under-pic {
+      right: 0;
+      top: 0;
+      position: absolute;
+      z-index: 1;
+    }
+    .head-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 133%;
+      padding-top: 24px;
+      padding-bottom: 48px;
+    }
+    .dad {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      margin-right: 15rem;
+      .index {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 133%;
+        color: #0367b4;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+      }
+      .sub {
+        font-size: 16px;
+        line-height: 133%;
+        padding-left: 22px;
+        display: flex;
+        flex-direction: column;
+        .sub-text {
+          padding-left: 20px;
+        }
+        .name {
+          text-transform: uppercase;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 142%;
+          padding-bottom: -12px;
+          padding-top: 12px;
+        }
+      }
+    }
+  }
